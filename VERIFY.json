@@ -1,0 +1,166 @@
+{
+  "schema": "chainprint-release-verification-v1",
+  "status": "LOCAL_CANDIDATE_PORTABILITY_VERIFIED_WITH_REPRODUCTION_LIMITS",
+  "date": "2026-10-26",
+  "source_bindings": "provenance/SOURCE_MANIFEST.json",
+  "paper_binding": "provenance/PAPER_BINDING.json",
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.1.3",
+    "Pillow": "11.1.0",
+    "torch": "2.9.1+cu128",
+    "pytest": "8.3.4",
+    "execution_device": "cpu",
+    "dependency_isolation": "fresh venv sharing already-installed packages; wheel installed without dependency downloads"
+  },
+  "tests": {
+    "passed": 11,
+    "failed": 0,
+    "command": "python -m pytest tests -q -p no:cacheprovider",
+    "suite": "tests/test_release.py",
+    "source_tree_passed": true,
+    "installed_wheel_passed": true,
+    "regressions": [
+      "all six exact original parameter banks and numerical hashes",
+      "real typed-model pixel prediction equals direct original-class call",
+      "new independent RGB supports and relocated JSON paths",
+      "save/reload and deterministic ranking",
+      "mixed missing candidates cannot declare a full-set winner",
+      "32px conventional queries preserve AI unavailability without a shape crash",
+      "asset relocation and corruption checks",
+      "numeric ties remain explicit",
+      "five unchanged 2D control CSVs"
+    ]
+  },
+  "checks": {
+    "frozen_scientific_modules_unchanged": 40,
+    "frozen_source_entry_sha256": "db76716fa902691025e8536552405c4ad01976f50c5832aadc29a5305653898e",
+    "original_model_banks": [
+      {
+        "cell": 0,
+        "sha256": "192d371d5fd4938d550001884d8e367b01e22b4bdf714df37be614a7e32e70b1",
+        "numerical_state_sha256": "86fda2fe5b98ec34ff9c739f02523733a316d24b409d1dbab0902400c2112e66",
+        "bytes": 1095381,
+        "operation_count": 8,
+        "file_and_numerical_state_verified": true
+      },
+      {
+        "cell": 1,
+        "sha256": "d598e98e6f7ab653231ab30f1d0be4267cca6037dc26a738edf8bd6633d08399",
+        "numerical_state_sha256": "97b91ba60207e137c785cd1e16c5ed1d42e0917a60cc89afb134d5a22db3902e",
+        "bytes": 1095253,
+        "operation_count": 8,
+        "file_and_numerical_state_verified": true
+      },
+      {
+        "cell": 2,
+        "sha256": "50dddb91240f97d1f8552f17f9e868a39725db9e7375073c31e6fff4a718ab0c",
+        "numerical_state_sha256": "be70f7a9acba4517ce564418dfcb27ea5e5751be08e50e5bb7c9ceb27e8dec2b",
+        "bytes": 1095253,
+        "operation_count": 8,
+        "file_and_numerical_state_verified": true
+      },
+      {
+        "cell": 3,
+        "sha256": "ee1b470b894c9a3ff8ff7c0bf86f36da6fa1be7fd1a44540444eac6b3cce8d06",
+        "numerical_state_sha256": "0bdb7c686b44c6c7acd568c23ccf7db0eeb8f6ddf291c178c51fd433224f5214",
+        "bytes": 1095381,
+        "operation_count": 8,
+        "file_and_numerical_state_verified": true
+      },
+      {
+        "cell": 4,
+        "sha256": "5abcfb525a55fe804b5df1e871f6aa125decebd1777c42cf278c7cfee535fa24",
+        "numerical_state_sha256": "10b9ea59f3a2f940336475993c2b2760b2cc42a56f01c71f65ede9649ac3d212",
+        "bytes": 1095253,
+        "operation_count": 8,
+        "file_and_numerical_state_verified": true
+      },
+      {
+        "cell": 5,
+        "sha256": "a20f9f4494ba830519aaa66ed60eba2332eb006a716792927fdd8ab474abae37",
+        "numerical_state_sha256": "aee182360c9110638c8e421ac1868196b6d8e20e4bb282797433573e6d3a8dd2",
+        "bytes": 1095253,
+        "operation_count": 8,
+        "file_and_numerical_state_verified": true
+      }
+    ],
+    "original_model_bytes_total": 6571774,
+    "cpu_original_operator_execution": {
+      "cell": 0,
+      "slot": 0,
+      "finite": true,
+      "prediction_mse_from_input": 0.03013239701038963,
+      "scope": "Original parameter loading and real operator execution; no accuracy claim"
+    },
+    "fresh_rgb_demo": {
+      "supports": 8,
+      "query_in_supports": false,
+      "mode": "diagnostic-joint",
+      "winner": [
+        0
+      ],
+      "candidate_histories": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "model_hash": "0d53ee1d2dea538cc1890d78d026f0b5ba2f32cb8045f33dfeaaab13ba2988ce",
+      "result": "examples/rgb_demo/result.json"
+    },
+    "supplementary_2d_control": {
+      "reference_csvs_byte_identical": 5,
+      "cases": 96,
+      "summary_rows": 192,
+      "sampling_rows": 23040,
+      "missed_reversal_counts": [
+        471,
+        192,
+        81,
+        54,
+        28,
+        0
+      ],
+      "plotting_required": false
+    },
+    "frozen_prior_declaration_matches_original": true,
+    "wheel_build": {
+      "passed": true,
+      "sha256": "ac3be65e911709be6c4b4cdb5c62453bb2bcf72e0268ab9d52afe70d003e9e0f",
+      "bytes": 151672,
+      "contains_six_model_banks": true
+    },
+    "wheel_install_outside_source_directory": true,
+    "cli_fit_compose_rank_executed": true,
+    "portable_manifests_use_logical_source_roots": true,
+    "source_project_modified": false,
+    "remote_server_modified": false,
+    "gpu_work_performed": false,
+    "editor_calls_performed": 0,
+    "github_upload_performed": false
+  },
+  "known_limits": [
+    "Complete new-support paper-mode refitting and the historical 180-source image benchmark were not rerun. The complete frozen estimator and its dependency closure are packaged, not replaced by the diagnostic.",
+    "The fast RGB demo deliberately uses the original reduced analytical joint-fitting diagnostic. It does not reproduce the full paper estimator or establish its reported accuracy.",
+    "Paper-mode refitting requires the explicit finite prior and exact accepted/refused support-prior replay cache. Those licensed/private images and generation caches are not included.",
+    "AI-containing compositions require the original pinned editor weights and optional runtime. Missing assets cause a full-set abstention, with available-subset ordering reported separately. Real AI editor execution was not verified here.",
+    "The historical baseline adaptations, raw source images, complete query/candidate pools and full generation caches are not included.",
+    "The original strict contracts are preserved byte-for-byte as evidence; their historical absolute paths are not executed by the portable API. New public manifests use logical roots.",
+    "Original software licensing is pending author selection. NOTICE does not grant a redistribution license.",
+    "Local citation-updated manuscript identity is bound by SHA-256; the current online attachment was not verified."
+  ],
+  "ready_for": "local review, independent CPU image demo, original operator loading, explicit API/CLI use; not an unqualified full-benchmark reproduction claim"
+}

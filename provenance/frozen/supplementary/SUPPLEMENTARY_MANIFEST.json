@@ -1,0 +1,777 @@
+{
+  "format_version": 1,
+  "title": "ChainPrint supplementary materials",
+  "scope": "Measured result exports, complete submitted paper and runnable deterministic direction control; not the complete image-experiment code/data release.",
+  "files": [
+    {
+      "path": "code/check_package.py",
+      "bytes": 2761,
+      "sha256": "e33897beb2f78ac213ddc2e2959f1459df07f32c8c098d1dd08423fa3e445e57"
+    },
+    {
+      "path": "code/direction_control/README.md",
+      "bytes": 4731,
+      "sha256": "4eabbb1526941253a849dd980f8a4a0cd018b03a0b135a35a603537cf3113ede"
+    },
+    {
+      "path": "code/direction_control/requirements.txt",
+      "bytes": 34,
+      "sha256": "e8c3a6bd8aa3914ce8299fd49f6dcec72e4a400e64b99d9dd7a5e60477ebe8e0"
+    },
+    {
+      "path": "code/direction_control/run_controlled_direction.py",
+      "bytes": 12326,
+      "sha256": "e0171118d57d94e508d64691393db41a7164e93aa6f3120630e00c336537b265"
+    },
+    {
+      "path": "code/direction_control/support_history_geometry.py",
+      "bytes": 12001,
+      "sha256": "d33c37ebe12b8d93ec8fa1a7d43a69ea500cc2ad64c128efe657ad60abd5d441"
+    },
+    {
+      "path": "data/appendix/ai_configuration_mechanism_MEASURED.csv",
+      "bytes": 2266,
+      "sha256": "e50775d0a7a61b01c688433886d5f44a811e5232a3804f15817754cc8a8dc455",
+      "csv_rows": 18,
+      "columns": [
+        "target",
+        "target_key",
+        "configuration",
+        "guidance_offset",
+        "probes_complete",
+        "probes_planned",
+        "effect_complete",
+        "mean_RGB_RMSE",
+        "mean_RGB_RMSE_over_tau",
+        "chain_complete",
+        "chain_planned",
+        "consistent_correct_complete",
+        "witness"
+      ]
+    },
+    {
+      "path": "data/appendix/ai_retrieval_verified_full.csv",
+      "bytes": 299014,
+      "sha256": "cdc65b4269ac8df2aaa37876927103de821bf8494fe4f119b000f321faa05183",
+      "csv_rows": 1280,
+      "columns": [
+        "method",
+        "N",
+        "presence",
+        "k",
+        "rmse_numerator_over_255",
+        "rmse_threshold",
+        "mse_threshold",
+        "source_count",
+        "aggregation",
+        "mean_verified_topk_utility",
+        "mean_ranking_complete",
+        "mean_complete_eight_probe_fraction",
+        "mean_verified_reachable_oracle",
+        "mean_topk_any_replay_available_probability",
+        "mean_topk_all_replay_available_probability",
+        "mean_topk_expected_replay_available_fraction",
+        "sum_verified_source_equivalents",
+        "sources_with_positive_verified_probability",
+        "sources_with_probability_one",
+        "source_std_verified_topk_utility"
+      ]
+    },
+    {
+      "path": "data/appendix/controlled_ai_mechanism_MEASURED.csv",
+      "bytes": 1399,
+      "sha256": "19e4c181060d9ed72080e9c02eeb3f403a24bc9b3bc64d6e2e5a31e4c9c068af",
+      "csv_rows": 7,
+      "columns": [
+        "x",
+        "alpha_times255",
+        "source_groups",
+        "directions_per_source",
+        "observations",
+        "complete_U_sources",
+        "complete_U_observations",
+        "available_mean_U_ratio",
+        "available_min_U_ratio",
+        "available_max_U_ratio",
+        "error_lower",
+        "error_upper",
+        "different_correct_percent",
+        "close_correct_percent",
+        "U_unavailable_correct_percent",
+        "candidates_unavailable_percent",
+        "witness_sources"
+      ]
+    },
+    {
+      "path": "data/appendix/figure3_reference_coverage.csv",
+      "bytes": 155,
+      "sha256": "de2c899cc24e1f1556a0f9f07aa62cd6460a3bdb6478e42d4df73f80e917368a",
+      "csv_rows": 8,
+      "columns": [
+        "x",
+        "complete",
+        "registered",
+        "coverage_percent"
+      ]
+    },
+    {
+      "path": "data/appendix/figure3_reference_strict_source.csv",
+      "bytes": 21243,
+      "sha256": "15fc3b9260016c29a0726d16711b0b87e28a37795c560cc1e8555d02d83f6195",
+      "csv_rows": 128,
+      "columns": [
+        "method",
+        "condition",
+        "support_dictionary_G",
+        "span",
+        "K",
+        "N",
+        "metric",
+        "mean",
+        "ci95_low",
+        "ci95_high",
+        "source_sd",
+        "independent_sources",
+        "complete_sources",
+        "coverage_fraction",
+        "strict_common_denominator",
+        "plot_role",
+        "source"
+      ]
+    },
+    {
+      "path": "data/appendix/retrieval_0_LOG_POINTS.csv",
+      "bytes": 1373,
+      "sha256": "180396faf5f130660b9803120d55a394046bd84ea8dac707dc951df2a9699679",
+      "csv_rows": 8,
+      "columns": [
+        "N",
+        "presence",
+        "x",
+        "B_x",
+        "B_raw_MSE",
+        "B_positive",
+        "B_zero_lane",
+        "E5_x",
+        "E5_raw_MSE",
+        "E5_positive",
+        "E5_zero_lane",
+        "E1_x",
+        "E1_raw_MSE",
+        "E1_positive",
+        "E1_zero_lane"
+      ]
+    },
+    {
+      "path": "data/appendix/retrieval_1_LOG_POINTS.csv",
+      "bytes": 1345,
+      "sha256": "87a3f043c9fa0b0f7f2c470e6ba93a042aad4d2028db45fb125fc6931e312a37",
+      "csv_rows": 8,
+      "columns": [
+        "N",
+        "presence",
+        "x",
+        "B_x",
+        "B_raw_MSE",
+        "B_positive",
+        "B_zero_lane",
+        "E5_x",
+        "E5_raw_MSE",
+        "E5_positive",
+        "E5_zero_lane",
+        "E1_x",
+        "E1_raw_MSE",
+        "E1_positive",
+        "E1_zero_lane"
+      ]
+    },
+    {
+      "path": "data/appendix/retrieval_2_LOG_POINTS.csv",
+      "bytes": 1365,
+      "sha256": "d3142cc6979c64070fd85e0ecd748b62f5fc23921284751e795f753cc0f350b0",
+      "csv_rows": 8,
+      "columns": [
+        "N",
+        "presence",
+        "x",
+        "B_x",
+        "B_raw_MSE",
+        "B_positive",
+        "B_zero_lane",
+        "E5_x",
+        "E5_raw_MSE",
+        "E5_positive",
+        "E5_zero_lane",
+        "E1_x",
+        "E1_raw_MSE",
+        "E1_positive",
+        "E1_zero_lane"
+      ]
+    },
+    {
+      "path": "data/appendix/retrieval_3_LOG_POINTS.csv",
+      "bytes": 1333,
+      "sha256": "8579bc2de7ad4afd1c8cf6243d02ffbc6a83652a431913f8193e9b9a6c1aa368",
+      "csv_rows": 8,
+      "columns": [
+        "N",
+        "presence",
+        "x",
+        "B_x",
+        "B_raw_MSE",
+        "B_positive",
+        "B_zero_lane",
+        "E5_x",
+        "E5_raw_MSE",
+        "E5_positive",
+        "E5_zero_lane",
+        "E1_x",
+        "E1_raw_MSE",
+        "E1_positive",
+        "E1_zero_lane"
+      ]
+    },
+    {
+      "path": "data/appendix/retrieval_4_LOG_POINTS.csv",
+      "bytes": 1079,
+      "sha256": "498e22b6cad18069ddaa53fe7c1da035d099db1be999a7f06597ccf4643b208f",
+      "csv_rows": 8,
+      "columns": [
+        "N",
+        "presence",
+        "x",
+        "B_x",
+        "B_raw_MSE",
+        "B_positive",
+        "B_zero_lane",
+        "E5_x",
+        "E5_raw_MSE",
+        "E5_positive",
+        "E5_zero_lane",
+        "E1_x",
+        "E1_raw_MSE",
+        "E1_positive",
+        "E1_zero_lane"
+      ]
+    },
+    {
+      "path": "data/appendix/retrieval_5_LOG_POINTS.csv",
+      "bytes": 1079,
+      "sha256": "73810b92cface66e6a20844a06359db3a2029ffe7b87d5ca59330f340c4f3f70",
+      "csv_rows": 8,
+      "columns": [
+        "N",
+        "presence",
+        "x",
+        "B_x",
+        "B_raw_MSE",
+        "B_positive",
+        "B_zero_lane",
+        "E5_x",
+        "E5_raw_MSE",
+        "E5_positive",
+        "E5_zero_lane",
+        "E1_x",
+        "E1_raw_MSE",
+        "E1_positive",
+        "E1_zero_lane"
+      ]
+    },
+    {
+      "path": "data/appendix/span_2_MEASURED.csv",
+      "bytes": 386,
+      "sha256": "950718c4e3d3393b87c1158ef9c32c3d96cfaf307b4f7e569659954cdaad42dc",
+      "csv_rows": 8,
+      "columns": [
+        "K",
+        "correct_distinct",
+        "correct_similar",
+        "agreed_wrong",
+        "unresolved"
+      ]
+    },
+    {
+      "path": "data/appendix/span_4_MEASURED.csv",
+      "bytes": 364,
+      "sha256": "4b82d662773b23da9937a8ff86f7e778f87cf862f5ce8e83291f7cb74e795f58",
+      "csv_rows": 8,
+      "columns": [
+        "K",
+        "correct_distinct",
+        "correct_similar",
+        "agreed_wrong",
+        "unresolved"
+      ]
+    },
+    {
+      "path": "data/appendix/span_6_MEASURED.csv",
+      "bytes": 361,
+      "sha256": "94aef1e5ca6b2df60d10d6be2532b2369b2e51497a75d501068f6fc12c6c0e85",
+      "csv_rows": 8,
+      "columns": [
+        "K",
+        "correct_distinct",
+        "correct_similar",
+        "agreed_wrong",
+        "unresolved"
+      ]
+    },
+    {
+      "path": "data/appendix/span_8_MEASURED.csv",
+      "bytes": 338,
+      "sha256": "9d3747cb9799e799687a4b1fd8f271100fea852eb5af9255a96675f5d7ef9646",
+      "csv_rows": 8,
+      "columns": [
+        "K",
+        "correct_distinct",
+        "correct_similar",
+        "agreed_wrong",
+        "unresolved"
+      ]
+    },
+    {
+      "path": "data/direction_control/cases.csv",
+      "bytes": 5321,
+      "sha256": "575299fd0fd6a352c5287798c2886c85c555a7ac408a8e1052bd0b74e40c6219",
+      "csv_rows": 96,
+      "columns": [
+        "case_id",
+        "query_angle_deg",
+        "query_u",
+        "query_v",
+        "F_repeats",
+        "chain_length",
+        "translation",
+        "candidate_count",
+        "true_candidate_rmse_gap"
+      ]
+    },
+    {
+      "path": "data/direction_control/controlled_design.json",
+      "bytes": 1872,
+      "sha256": "385445b32c531575347199ce735685fc5891a528c5c3edbdd5d6064999b324c9"
+    },
+    {
+      "path": "data/direction_control/counterexamples.csv",
+      "bytes": 23414,
+      "sha256": "e506079fa407297ca0a84692230bf64c446b4f0d6e1bf5b0cf984b4db049d908",
+      "csv_rows": 147,
+      "columns": [
+        "case_id",
+        "query_angle_deg",
+        "query_u",
+        "query_v",
+        "F_repeats",
+        "chain_length",
+        "translation",
+        "candidate_count",
+        "true_candidate_rmse_gap",
+        "arm",
+        "model_id",
+        "a",
+        "b",
+        "loss_generating",
+        "loss_reversed",
+        "margin"
+      ]
+    },
+    {
+      "path": "data/direction_control/design_balance.csv",
+      "bytes": 237,
+      "sha256": "1039237248ee876cea9cf7955bc21dc33e9c6aa3ac40f50a5eca6f25139cc66a",
+      "csv_rows": 2,
+      "columns": [
+        "arm",
+        "K",
+        "global_models",
+        "compatible_models",
+        "support_error_min",
+        "support_error_max",
+        "global_behavior_diameter"
+      ]
+    },
+    {
+      "path": "data/direction_control/REPRODUCTION_CHECK.json",
+      "bytes": 1504,
+      "sha256": "fbbad0cebd4387904306d22059a94df6ba00da4b56754123a2d8cc5f9ece05d7"
+    },
+    {
+      "path": "data/direction_control/run_summary.json",
+      "bytes": 1303,
+      "sha256": "27af92b3741a2298c9014928909bcd9a908e21897d3be7adaf3de5f92c5cdd58"
+    },
+    {
+      "path": "data/direction_control/sampling_sensitivity.csv",
+      "bytes": 1210968,
+      "sha256": "58d65398f3acdfcea6293a012f18dd733bed223ee2f4cbb276f8503a6a9f8e31",
+      "csv_rows": 23040,
+      "columns": [
+        "case_id",
+        "arm",
+        "seed",
+        "model_budget",
+        "stable_correct_sampled",
+        "stable_correct_full",
+        "false_consensus",
+        "full_pool_has_reversal",
+        "full_pool_has_tie",
+        "minimum_sampled_margin"
+      ]
+    },
+    {
+      "path": "data/direction_control/summary.csv",
+      "bytes": 38077,
+      "sha256": "5677bd4889d7d13eae9f03e818d593271e22fbc8abd1a086a06097f6f68b969f",
+      "csv_rows": 192,
+      "columns": [
+        "case_id",
+        "query_angle_deg",
+        "query_u",
+        "query_v",
+        "F_repeats",
+        "chain_length",
+        "translation",
+        "candidate_count",
+        "true_candidate_rmse_gap",
+        "arm",
+        "compatible_models",
+        "K",
+        "global_behavior_diameter",
+        "min_margin",
+        "max_margin",
+        "correct_models",
+        "wrong_models",
+        "tied_models",
+        "fraction_models_correct",
+        "stable_correct_finite_pool",
+        "candidate0_prediction_diameter",
+        "candidate1_prediction_diameter"
+      ]
+    },
+    {
+      "path": "data/figure3/figure3_blur.csv",
+      "bytes": 641,
+      "sha256": "6d6360ef1e2ad1837ada26822e63f1b96599c6ef762e6ffbc1343c2b42bbbcc4",
+      "csv_rows": 8,
+      "columns": [
+        "x",
+        "m1",
+        "m4",
+        "m6",
+        "m7",
+        "m8",
+        "m9"
+      ]
+    },
+    {
+      "path": "data/figure3/figure3_downsampling.csv",
+      "bytes": 661,
+      "sha256": "6354f18610c7c3b94e42a430a29d8c954cb85557d99bc121352a7378430b40df",
+      "csv_rows": 8,
+      "columns": [
+        "x",
+        "m1",
+        "m4",
+        "m6",
+        "m7",
+        "m8",
+        "m9"
+      ]
+    },
+    {
+      "path": "data/figure3/figure3_jpeg.csv",
+      "bytes": 658,
+      "sha256": "4fea25a0b8f2a40ca61087c946180a4187ce684f4ced6b640d09cf27719627ad",
+      "csv_rows": 8,
+      "columns": [
+        "x",
+        "m1",
+        "m4",
+        "m6",
+        "m7",
+        "m8",
+        "m9"
+      ]
+    },
+    {
+      "path": "data/figure3/figure3_new_implementations_rbs.csv",
+      "bytes": 693,
+      "sha256": "5b2bb4a63496b63b47f992e8a5636c13ae0190b2ead42e156f4ea094f68a474b",
+      "csv_rows": 8,
+      "columns": [
+        "x",
+        "m1",
+        "m4",
+        "m6",
+        "m7",
+        "m8",
+        "m9"
+      ]
+    },
+    {
+      "path": "data/figure3/figure3_new_settings_rbs.csv",
+      "bytes": 479,
+      "sha256": "651990bfa52fd63de80111c68c69f01690292d215dd6e3d36038b4594f3eb76f",
+      "csv_rows": 8,
+      "columns": [
+        "x",
+        "m1",
+        "m4",
+        "m6",
+        "m7",
+        "m8",
+        "m9"
+      ]
+    },
+    {
+      "path": "data/figure3/figure3_old_examples_rbs.csv",
+      "bytes": 161,
+      "sha256": "293785cf32c302188a11340afc16ae916a4eff4c36b9e13282879b9f4c7e1ed6",
+      "csv_rows": 8,
+      "columns": [
+        "x",
+        "old"
+      ]
+    },
+    {
+      "path": "data/figure3/figure3_old_implementation_rbs.csv",
+      "bytes": 56,
+      "sha256": "eb185b90c2e26f431bfdc27800bd2a55b76e4b6a3e625aa4e4436f222cf84f33",
+      "csv_rows": 8,
+      "columns": [
+        "x",
+        "old"
+      ]
+    },
+    {
+      "path": "data/figure3/figure3_reference_strict.csv",
+      "bytes": 333,
+      "sha256": "40473d0ac453edb524a5691f5bf6fb2f4d93e13ae8d562a8dc43087258ba819a",
+      "csv_rows": 5,
+      "columns": [
+        "x",
+        "m1",
+        "m4",
+        "m6",
+        "m7",
+        "m8",
+        "m9"
+      ]
+    },
+    {
+      "path": "data/figure4/ai_configuration_effects_complete_MEASURED.csv",
+      "bytes": 468,
+      "sha256": "c27536fa053c9c85115f8403fe71db9ff5bdeb5389039d96145714ee056308dc",
+      "csv_rows": 7,
+      "columns": [
+        "target",
+        "configuration",
+        "x",
+        "mean_RGB_RMSE",
+        "effect_ratio",
+        "witness"
+      ]
+    },
+    {
+      "path": "data/figure4/mechanism_agreement_k8_MEASURED.csv",
+      "bytes": 237,
+      "sha256": "940a58690150f48c6a6690005e38e5ccf816ad7ba5107dd188fb5b075290db93",
+      "csv_rows": 4,
+      "columns": [
+        "span",
+        "K",
+        "correct_similar",
+        "unresolved",
+        "query_seed_observations",
+        "source_groups"
+      ]
+    },
+    {
+      "path": "data/figure4/mechanism_direction_MEASURED.csv",
+      "bytes": 187,
+      "sha256": "feb4c77ab326e45608f1a16ac59cc68751b3448da006f2d1b48f64857292e28c",
+      "csv_rows": 6,
+      "columns": [
+        "angle",
+        "arm",
+        "stable_correct",
+        "conditions",
+        "percentage",
+        "compatible_estimates"
+      ]
+    },
+    {
+      "path": "data/figure4/mechanism_spread_k8_MEASURED.csv",
+      "bytes": 1306,
+      "sha256": "da6223e74cb9f5779354ad43883f0ceddc943bdacb58d71d8495299a843b77fc",
+      "csv_rows": 4,
+      "columns": [
+        "span",
+        "K",
+        "tau",
+        "median_U",
+        "q25_U",
+        "q75_U",
+        "median_ratio",
+        "q25_ratio",
+        "q75_ratio",
+        "error_lower",
+        "error_upper",
+        "query_seed_observations",
+        "source_groups",
+        "distribution"
+      ]
+    },
+    {
+      "path": "data/tables/appendix_cache_reuse.csv",
+      "bytes": 7783,
+      "sha256": "6ef52687f205e21430de3fd0f7bbb95412f5cfa22c484b5cfc7f51768dee0e66",
+      "csv_rows": 24,
+      "columns": [
+        "method",
+        "condition",
+        "dataset",
+        "group",
+        "query_id",
+        "source_root",
+        "on_seconds",
+        "off_seconds",
+        "off_over_on",
+        "maximum_absolute_score_error",
+        "proof_status",
+        "all_candidates_available",
+        "v3_primary_exact_match",
+        "source_sha256"
+      ]
+    },
+    {
+      "path": "data/tables/table1_history_recovery.csv",
+      "bytes": 29841,
+      "sha256": "39a740e66314eb74c3fb4ad1e0e06a8e293d036417f073bd197cb11ba6f9ba1e",
+      "csv_rows": 180,
+      "columns": [
+        "method",
+        "dataset",
+        "condition",
+        "L",
+        "value_percent",
+        "ci95",
+        "expected_sources",
+        "expected_episodes",
+        "n_sources",
+        "episodes",
+        "query_generated",
+        "method_complete",
+        "status",
+        "source_sha256"
+      ]
+    },
+    {
+      "path": "data/tables/table2_controlled_histories.csv",
+      "bytes": 16746,
+      "sha256": "fa13177c3dc8952e17ccc43264fbdc45f751bdeacf78fd16094417cd8a94e68b",
+      "csv_rows": 90,
+      "columns": [
+        "method",
+        "condition",
+        "contrast",
+        "L",
+        "paired_accuracy_percent",
+        "ci95",
+        "expected_sources",
+        "n_sources",
+        "episodes",
+        "status",
+        "expected_episodes",
+        "query_generated",
+        "method_complete",
+        "exact_ties",
+        "primary_unscorable",
+        "source_sha256"
+      ]
+    },
+    {
+      "path": "data/tables/table3_ablations.csv",
+      "bytes": 8619,
+      "sha256": "7c290cb75c4e9feb733944d509b47117da2ed95e50ea8a740a1ecd6435b4e7d9",
+      "csv_rows": 48,
+      "columns": [
+        "method",
+        "condition",
+        "L",
+        "value_percent",
+        "ci95",
+        "expected_sources",
+        "expected_episodes",
+        "n_sources",
+        "episodes",
+        "query_generated",
+        "method_complete",
+        "status",
+        "source_sha256"
+      ]
+    },
+    {
+      "path": "data/tables/table4_efficiency.csv",
+      "bytes": 9865,
+      "sha256": "35712a1a504001ccfbe4abe4d2764e584d7d18b2a0bdf92790218f056220cabd",
+      "csv_rows": 20,
+      "columns": [
+        "method",
+        "condition",
+        "planned_sources",
+        "measured_queries",
+        "failed_score_banks",
+        "missing_units",
+        "physical_query_refusals",
+        "peak_scope",
+        "weight_loading_excluded_not_free_predictions",
+        "S_seconds_mean",
+        "t_seconds_mean",
+        "Q1_seconds_mean",
+        "Q100_seconds_mean",
+        "top1_mean",
+        "MRR_mean",
+        "Setup_peak_RAM_bytes",
+        "Query_peak_RAM_bytes",
+        "overall_peak_RAM_bytes",
+        "Setup_peak_VRAM_bytes",
+        "Query_peak_VRAM_bytes",
+        "overall_peak_VRAM_bytes",
+        "source_sha256",
+        "execution_window",
+        "query_latency_observed_seconds",
+        "query_latency_median_seconds",
+        "query_latency_range_seconds",
+        "query_latency_SD_seconds"
+      ]
+    },
+    {
+      "path": "docs/FIGURE_DATA_GUIDE.md",
+      "bytes": 12956,
+      "sha256": "c78e28637ef09558e6b81d2e95e77aa5b15ddfd93956a7952c495a29afa05de3"
+    },
+    {
+      "path": "docs/TABLE_DATA_GUIDE.md",
+      "bytes": 4297,
+      "sha256": "ce1f476b1c0291438980b96cefc78bde295bb349c0fc9af59b08242c80416e96"
+    },
+    {
+      "path": "paper/ChainPrint_with_Appendices.pdf",
+      "bytes": 1262826,
+      "sha256": "65533cdadc1135c2c5aaa5a6cec1495b04483ca9b81049ebcd522f8e8eab2a68"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "bytes": 9954,
+      "sha256": "9c38d8b2c9f00c92e65b8ba5b825ac8be70bc493205b704a94e8ae37e2f317c2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4580,
+      "sha256": "b7b735adae098f1d8e47f2091558f51df38a43749234eb747e997b7f99522a0b"
+    }
+  ],
+  "manuscript_sha256": "65533cdadc1135c2c5aaa5a6cec1495b04483ca9b81049ebcd522f8e8eab2a68",
+  "manuscript_references": 33
+}

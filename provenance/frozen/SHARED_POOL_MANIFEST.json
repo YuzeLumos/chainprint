@@ -1,0 +1,955 @@
+{
+  "schema": "chainprint-t1-shared-example-pool-v2",
+  "selected_sources": [
+    {
+      "schema": "opweave-fresh-pixel-row-v1",
+      "source_id": "a1489-IMG_4766",
+      "license_class": "AdobeMIT",
+      "device": "ed13e346bb72bacb272b04bae64eda18b50030cdd29d3842120016dcccba6da6",
+      "device_scope": "New metadata diagnostic HMAC; no requirement that these equal original 12 development devices",
+      "raw_sha256": "7f2b5a739eb3894acd4d48bac6aef6dac395810f8353ecb150d91ef3ae0565b6",
+      "root": "7f2b5a739eb3894acd4d48bac6aef6dac395810f8353ecb150d91ef3ae0565b6",
+      "decoded": "8be6b87f79327be18eebc5cda747789fbce177a4acdd6b13770dc1b91d29714e",
+      "make_normalized": "CANON",
+      "unique_camera_model_normalized": "CANON EOS 450D",
+      "standard_serial_valid": true,
+      "standard_serial_length": 9,
+      "raw_data_unique_id": "25600AFE8143D4E3D7F79F7AF46D3794",
+      "device_id_source": "Frozen public-source metadata screen diagnostic HMAC; private key remains on originating host",
+      "device_hmac_recomputed_during_decode": false,
+      "metadata_warning_count": 0,
+      "decoded_root_hash": "8be6b87f79327be18eebc5cda747789fbce177a4acdd6b13770dc1b91d29714e",
+      "phash64": "9b8a8eb4c53531cb",
+      "root_width": 4290,
+      "root_height": 2856,
+      "crop_box": [
+        2242,
+        203,
+        2498,
+        459
+      ],
+      "crop_rgb_sha256": "f3ab53e59eab127aaac010097a952daf93e924f135a8009525629b5a94781c52",
+      "pixel_path": "/data/yz/opweave_revision_20260915_v1/fresh_data/prepared/pixels/34a3b38e3b66c3bed38f3f0f731a9d92b6ea9f2671e491f67917e932a9b99db3.png",
+      "pixel_file_sha256": "a6332d06a3de6394033255af3fcef0194335be99b6647b4b62c0fc68b231ab66",
+      "pixel_shape": [
+        3,
+        256,
+        256
+      ],
+      "pixel_dtype": "uint8 PNG; consumer CHW float32 /255",
+      "download": {
+        "url": "https://data.csail.mit.edu/graphics/fivek/img/dng/a1489-IMG_4766.dng",
+        "http_status": 200,
+        "content_length": 15310156,
+        "bytes_received_this_call": 15310156,
+        "resumed_bytes": 0,
+        "elapsed_seconds": 39.235386824999296,
+        "etag": "\"e99d4c-4a5f04d551bc0\"",
+        "last_modified": "Fri, 17 Jun 2011 22:56:55 GMT"
+      },
+      "download_attempts": [
+        {
+          "attempt": 1,
+          "status": "COMPLETE",
+          "url": "https://data.csail.mit.edu/graphics/fivek/img/dng/a1489-IMG_4766.dng",
+          "http_status": 200,
+          "content_length": 15310156,
+          "bytes_received_this_call": 15310156,
+          "resumed_bytes": 0,
+          "elapsed_seconds": 39.235386824999296,
+          "etag": "\"e99d4c-4a5f04d551bc0\"",
+          "last_modified": "Fri, 17 Jun 2011 22:56:55 GMT"
+        }
+      ],
+      "finished_utc": "2026-09-15T13:08:26.744912+00:00",
+      "elapsed_seconds": 40.01282568700117,
+      "post_download_seconds": 0.7772603299999901,
+      "repeat_decode_identical": null,
+      "status": "PIXELS_PREPARED_NOT_FROZEN",
+      "scheduler": "four-process maximum; unchanged contracted decoder",
+      "old_comparison": {
+        "status": "FULL_3493_OLD_INDEX_NOT_AVAILABLE",
+        "old_cross_content_independence_established": false
+      },
+      "new_duplicate_candidates": [],
+      "new_duplicate_comparison_scope": "PENDING_COMPLETE_BATCH_AUDIT"
+    },
+    {
+      "schema": "opweave-fresh-pixel-row-v1",
+      "source_id": "a1556-IMG_0413",
+      "license_class": "AdobeMIT",
+      "device": "ed13e346bb72bacb272b04bae64eda18b50030cdd29d3842120016dcccba6da6",
+      "device_scope": "New metadata diagnostic HMAC; no requirement that these equal original 12 development devices",
+      "raw_sha256": "663a21dcba808de368acedf1745116366fc2f06ef9b0e19a386c17e112516b2e",
+      "root": "663a21dcba808de368acedf1745116366fc2f06ef9b0e19a386c17e112516b2e",
+      "decoded": "6a1717830c42d26af38b36dbd88ab15261c2192c775820d50fb423d1617a6f3f",
+      "make_normalized": "CANON",
+      "unique_camera_model_normalized": "CANON EOS 450D",
+      "standard_serial_valid": true,
+      "standard_serial_length": 9,
+      "raw_data_unique_id": "EABB06C48761B702F518D63BC39FBA7B",
+      "device_id_source": "Frozen public-source metadata screen diagnostic HMAC; private key remains on originating host",
+      "device_hmac_recomputed_during_decode": false,
+      "metadata_warning_count": 0,
+      "decoded_root_hash": "6a1717830c42d26af38b36dbd88ab15261c2192c775820d50fb423d1617a6f3f",
+      "phash64": "cdb524db5a60ea1a",
+      "root_width": 4290,
+      "root_height": 2856,
+      "crop_box": [
+        1857,
+        2564,
+        2113,
+        2820
+      ],
+      "crop_rgb_sha256": "200af246a8f0ecbe9a4e4cfccd4a8160199e014e11e01ff475605dc35eaeef60",
+      "pixel_path": "/data/yz/opweave_revision_20260915_v1/fresh_data/prepared/pixels/f0df466e7376941b969c65c6c33b7bb8f1087d7492905a68cd83cc61f24b4ff7.png",
+      "pixel_file_sha256": "d87bc0d4267a7eaa52f87890e74b8b47e0fadd50f038feead9c9475b1ba15ad4",
+      "pixel_shape": [
+        3,
+        256,
+        256
+      ],
+      "pixel_dtype": "uint8 PNG; consumer CHW float32 /255",
+      "download": {
+        "url": "https://data.csail.mit.edu/graphics/fivek/img/dng/a1556-IMG_0413.dng",
+        "http_status": 206,
+        "content_length": 13998692,
+        "bytes_received_this_call": 13998692,
+        "resumed_bytes": 0,
+        "elapsed_seconds": 62.109000000004016,
+        "etag": "\"d59a64-4a5f06ec54a00\"",
+        "last_modified": "Fri, 17 Jun 2011 23:06:16 GMT",
+        "transport": "fivek-ranged-resume-v2",
+        "request_attempts_this_call": 15,
+        "raw_sha256": "663a21dcba808de368acedf1745116366fc2f06ef9b0e19a386c17e112516b2e",
+        "transport_state_path": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\09\\05\\01a07153-98a0-73c3-83e3-297f9b8f3662\\raw_relay_v3\\records\\f0df466e7376941b969c65c6c33b7bb8f1087d7492905a68cd83cc61f24b4ff7.transport.json",
+        "maximum_range_bytes": 1048576,
+        "maximum_attempts_per_range": 3,
+        "resume_validation": "New download from byte zero"
+      },
+      "relay_transfer_sha256": "a8913c0d2107cf0a302b4ce061aa8a76e5a30b03695365c39db673912655e0f4",
+      "relay_decoder_sha256": "249129c17572a506d63e7f8b60a61f9f79b48a04b8d3944f55ae17f2a82c7558",
+      "finished_utc": "2026-09-15T15:59:19.839409+00:00",
+      "post_download_seconds": 0.7702115309984947,
+      "elapsed_seconds": 62.879212333002215,
+      "repeat_decode_identical": null,
+      "status": "PIXELS_PREPARED_NOT_FROZEN",
+      "previous_transient_attempt": null,
+      "old_comparison": {
+        "status": "FULL_3493_OLD_INDEX_NOT_AVAILABLE",
+        "old_cross_content_independence_established": false
+      },
+      "new_duplicate_candidates": [],
+      "new_duplicate_comparison_scope": "INDEPENDENT_COMPLETE_POOL_AUDIT"
+    },
+    {
+      "schema": "opweave-fresh-pixel-row-v1",
+      "source_id": "a1810-IMG_0839",
+      "license_class": "AdobeMIT",
+      "device": "ed13e346bb72bacb272b04bae64eda18b50030cdd29d3842120016dcccba6da6",
+      "device_scope": "New metadata diagnostic HMAC; no requirement that these equal original 12 development devices",
+      "raw_sha256": "c1a9ccf6eef5e4008321fe7dc4bbf7f0e04bf6a533c5689678cd334edf1a8964",
+      "root": "c1a9ccf6eef5e4008321fe7dc4bbf7f0e04bf6a533c5689678cd334edf1a8964",
+      "decoded": "890a5352c03a164c3376506128161999d84c3fa32927187993c9f850e0ca36f4",
+      "make_normalized": "CANON",
+      "unique_camera_model_normalized": "CANON EOS 450D",
+      "standard_serial_valid": true,
+      "standard_serial_length": 9,
+      "raw_data_unique_id": "463C18E9524AC0DCB053D67DBB363300",
+      "device_id_source": "Frozen public-source metadata screen diagnostic HMAC; private key remains on originating host",
+      "device_hmac_recomputed_during_decode": false,
+      "metadata_warning_count": 0,
+      "decoded_root_hash": "890a5352c03a164c3376506128161999d84c3fa32927187993c9f850e0ca36f4",
+      "phash64": "945a7ea934e2b2a9",
+      "root_width": 4290,
+      "root_height": 2856,
+      "crop_box": [
+        3741,
+        1644,
+        3997,
+        1900
+      ],
+      "crop_rgb_sha256": "5156804d3a69a90812a9a7ca929bae85f3521a97f0b09385bc3086272c7c82d3",
+      "pixel_path": "/data/yz/opweave_revision_20260915_v1/fresh_data/prepared/pixels/55f26cc2b00379277ecfa528ef8bbcaed80e9a3424f3e3058f7be81dc79ff065.png",
+      "pixel_file_sha256": "c301c58b2646c08c9a42081820e7f484b78ec0b8f9edab6a1c6b763b31b529fd",
+      "pixel_shape": [
+        3,
+        256,
+        256
+      ],
+      "pixel_dtype": "uint8 PNG; consumer CHW float32 /255",
+      "download": {
+        "url": "https://data.csail.mit.edu/graphics/fivek/img/dng/a1810-IMG_0839.dng",
+        "http_status": 200,
+        "content_length": 13039962,
+        "bytes_received_this_call": 13039962,
+        "resumed_bytes": 0,
+        "elapsed_seconds": 41.34459391800192,
+        "etag": "\"c6f95a-4a5f0562768c0\"",
+        "last_modified": "Fri, 17 Jun 2011 22:59:23 GMT"
+      },
+      "download_attempts": [
+        {
+          "attempt": 1,
+          "status": "COMPLETE",
+          "url": "https://data.csail.mit.edu/graphics/fivek/img/dng/a1810-IMG_0839.dng",
+          "http_status": 200,
+          "content_length": 13039962,
+          "bytes_received_this_call": 13039962,
+          "resumed_bytes": 0,
+          "elapsed_seconds": 41.34459391800192,
+          "etag": "\"c6f95a-4a5f0562768c0\"",
+          "last_modified": "Fri, 17 Jun 2011 22:59:23 GMT"
+        }
+      ],
+      "finished_utc": "2026-09-15T13:32:38.740511+00:00",
+      "elapsed_seconds": 42.13732378199711,
+      "post_download_seconds": 0.792543752999336,
+      "repeat_decode_identical": null,
+      "status": "PIXELS_PREPARED_NOT_FROZEN",
+      "scheduler": "four-process maximum; unchanged contracted decoder",
+      "old_comparison": {
+        "status": "FULL_3493_OLD_INDEX_NOT_AVAILABLE",
+        "old_cross_content_independence_established": false
+      },
+      "new_duplicate_candidates": [],
+      "new_duplicate_comparison_scope": "PENDING_COMPLETE_BATCH_AUDIT"
+    },
+    {
+      "schema": "opweave-fresh-pixel-row-v1",
+      "source_id": "a2792-IMG_4043",
+      "license_class": "AdobeMIT",
+      "device": "ed13e346bb72bacb272b04bae64eda18b50030cdd29d3842120016dcccba6da6",
+      "device_scope": "New metadata diagnostic HMAC; no requirement that these equal original 12 development devices",
+      "raw_sha256": "bbd33f8d95be5d63e43950aea0b3cbbfa1e4ba2a07af994b8e9b496d0041ebf6",
+      "root": "bbd33f8d95be5d63e43950aea0b3cbbfa1e4ba2a07af994b8e9b496d0041ebf6",
+      "decoded": "1f49d762553db9bd7522d9867907d9580395ced85b4e1ac9529ee21db97438aa",
+      "make_normalized": "CANON",
+      "unique_camera_model_normalized": "CANON EOS 450D",
+      "standard_serial_valid": true,
+      "standard_serial_length": 9,
+      "raw_data_unique_id": "11A290A721C50A8570CF71CC5BD56EF7",
+      "device_id_source": "Frozen public-source metadata screen diagnostic HMAC; private key remains on originating host",
+      "device_hmac_recomputed_during_decode": false,
+      "metadata_warning_count": 0,
+      "decoded_root_hash": "1f49d762553db9bd7522d9867907d9580395ced85b4e1ac9529ee21db97438aa",
+      "phash64": "d5a4cf90c8f03fc1",
+      "root_width": 4290,
+      "root_height": 2856,
+      "crop_box": [
+        2444,
+        1144,
+        2700,
+        1400
+      ],
+      "crop_rgb_sha256": "574177a9a29cd227bc0ca50e9c0da341113f009ffe6f63a203d0e366ea7ab96c",
+      "pixel_path": "/data/yz/opweave_revision_20260915_v1/fresh_data/prepared/pixels/a3228f8a59d50d6354e867b6b2bbc9ef785269fdb2e798099df5d50c70e1090e.png",
+      "pixel_file_sha256": "42940ca88062746f4dbe681a41b539014cc4e519b06be781adc6b7d013950d30",
+      "pixel_shape": [
+        3,
+        256,
+        256
+      ],
+      "pixel_dtype": "uint8 PNG; consumer CHW float32 /255",
+      "download": {
+        "url": "https://data.csail.mit.edu/graphics/fivek/img/dng/a2792-IMG_4043.dng",
+        "http_status": 200,
+        "content_length": 14157332,
+        "bytes_received_this_call": 14157332,
+        "resumed_bytes": 0,
+        "elapsed_seconds": 19.4166510440009,
+        "etag": "\"d80614-4a5f078302d80\"",
+        "last_modified": "Fri, 17 Jun 2011 23:08:54 GMT"
+      },
+      "download_attempts": [
+        {
+          "attempt": 1,
+          "status": "COMPLETE",
+          "url": "https://data.csail.mit.edu/graphics/fivek/img/dng/a2792-IMG_4043.dng",
+          "http_status": 200,
+          "content_length": 14157332,
+          "bytes_received_this_call": 14157332,
+          "resumed_bytes": 0,
+          "elapsed_seconds": 19.4166510440009,
+          "etag": "\"d80614-4a5f078302d80\"",
+          "last_modified": "Fri, 17 Jun 2011 23:08:54 GMT"
+        }
+      ],
+      "finished_utc": "2026-09-15T13:22:18.627813+00:00",
+      "elapsed_seconds": 20.18255034899994,
+      "post_download_seconds": 0.7657347180029319,
+      "repeat_decode_identical": null,
+      "status": "PIXELS_PREPARED_NOT_FROZEN",
+      "scheduler": "four-process maximum; unchanged contracted decoder",
+      "old_comparison": {
+        "status": "FULL_3493_OLD_INDEX_NOT_AVAILABLE",
+        "old_cross_content_independence_established": false
+      },
+      "new_duplicate_candidates": [],
+      "new_duplicate_comparison_scope": "PENDING_COMPLETE_BATCH_AUDIT"
+    },
+    {
+      "schema": "opweave-fresh-pixel-row-v1",
+      "source_id": "a1298-IMG_4392",
+      "license_class": "AdobeMIT",
+      "device": "ed13e346bb72bacb272b04bae64eda18b50030cdd29d3842120016dcccba6da6",
+      "device_scope": "New metadata diagnostic HMAC; no requirement that these equal original 12 development devices",
+      "raw_sha256": "ecf23e6b4f577cc95e2d016d427828654a8eaa87cb64b94b3ea27a45dcbcb3fd",
+      "root": "ecf23e6b4f577cc95e2d016d427828654a8eaa87cb64b94b3ea27a45dcbcb3fd",
+      "decoded": "997fddae4c8f50fbbae042b0618e45211820a5c32d3e5081b577f37ad31f911a",
+      "make_normalized": "CANON",
+      "unique_camera_model_normalized": "CANON EOS 450D",
+      "standard_serial_valid": true,
+      "standard_serial_length": 9,
+      "raw_data_unique_id": "300042C6AAF1B6C91F5FDE8D27FB3727",
+      "device_id_source": "Frozen public-source metadata screen diagnostic HMAC; private key remains on originating host",
+      "device_hmac_recomputed_during_decode": false,
+      "metadata_warning_count": 0,
+      "decoded_root_hash": "997fddae4c8f50fbbae042b0618e45211820a5c32d3e5081b577f37ad31f911a",
+      "phash64": "9eb26523b28cc3d9",
+      "root_width": 4290,
+      "root_height": 2856,
+      "crop_box": [
+        1990,
+        2051,
+        2246,
+        2307
+      ],
+      "crop_rgb_sha256": "d499cd5f91bff062fcb3344e51a3a1a6306a9314adf16fc2caabf56492ca4ab2",
+      "pixel_path": "/data/yz/opweave_revision_20260915_v1/fresh_data/prepared/pixels/440309faca483325863f9177f648293cf65713a7937a66907feeb7038d0604d6.png",
+      "pixel_file_sha256": "c5219a429e3e9ede40bc88b2171d104fcdb6a48bd7558a385ab4771d6bcdc273",
+      "pixel_shape": [
+        3,
+        256,
+        256
+      ],
+      "pixel_dtype": "uint8 PNG; consumer CHW float32 /255",
+      "download": {
+        "url": "https://data.csail.mit.edu/graphics/fivek/img/dng/a1298-IMG_4392.dng",
+        "http_status": 200,
+        "content_length": 10541212,
+        "bytes_received_this_call": 10541212,
+        "resumed_bytes": 0,
+        "elapsed_seconds": 6.999094006001542,
+        "etag": "\"a0d89c-4a5f07553c180\"",
+        "last_modified": "Fri, 17 Jun 2011 23:08:06 GMT"
+      },
+      "download_attempts": [
+        {
+          "attempt": 1,
+          "status": "COMPLETE",
+          "url": "https://data.csail.mit.edu/graphics/fivek/img/dng/a1298-IMG_4392.dng",
+          "http_status": 200,
+          "content_length": 10541212,
+          "bytes_received_this_call": 10541212,
+          "resumed_bytes": 0,
+          "elapsed_seconds": 6.999094006001542,
+          "etag": "\"a0d89c-4a5f07553c180\"",
+          "last_modified": "Fri, 17 Jun 2011 23:08:06 GMT"
+        }
+      ],
+      "finished_utc": "2026-09-15T13:16:13.938378+00:00",
+      "elapsed_seconds": 7.810582835001696,
+      "post_download_seconds": 0.8113415010011522,
+      "repeat_decode_identical": null,
+      "status": "PIXELS_PREPARED_NOT_FROZEN",
+      "scheduler": "four-process maximum; unchanged contracted decoder",
+      "old_comparison": {
+        "status": "FULL_3493_OLD_INDEX_NOT_AVAILABLE",
+        "old_cross_content_independence_established": false
+      },
+      "new_duplicate_candidates": [],
+      "new_duplicate_comparison_scope": "PENDING_COMPLETE_BATCH_AUDIT"
+    },
+    {
+      "schema": "opweave-fresh-pixel-row-v1",
+      "source_id": "a0536-IMG_0470",
+      "license_class": "AdobeMIT",
+      "device": "ed13e346bb72bacb272b04bae64eda18b50030cdd29d3842120016dcccba6da6",
+      "device_scope": "New metadata diagnostic HMAC; no requirement that these equal original 12 development devices",
+      "raw_sha256": "0073b5460d533eb14d72b80dd36d494c1ff02ed80005063c53b0abe89e8723ec",
+      "root": "0073b5460d533eb14d72b80dd36d494c1ff02ed80005063c53b0abe89e8723ec",
+      "decoded": "8265b040a04919a2f0a8ec63e1dc6775e91bc6de4f29d018428e88a15c9921d9",
+      "make_normalized": "CANON",
+      "unique_camera_model_normalized": "CANON EOS 450D",
+      "standard_serial_valid": true,
+      "standard_serial_length": 9,
+      "raw_data_unique_id": "581C8086DE7788469570363934FC4063",
+      "device_id_source": "Frozen public-source metadata screen diagnostic HMAC; private key remains on originating host",
+      "device_hmac_recomputed_during_decode": false,
+      "metadata_warning_count": 0,
+      "decoded_root_hash": "8265b040a04919a2f0a8ec63e1dc6775e91bc6de4f29d018428e88a15c9921d9",
+      "phash64": "cac2278fa3e86939",
+      "root_width": 4290,
+      "root_height": 2856,
+      "crop_box": [
+        1383,
+        102,
+        1639,
+        358
+      ],
+      "crop_rgb_sha256": "598d1cbae86d3590d1bc76fc1ecf8e556faf8bfacc49eab7e83e4d6ef4c83594",
+      "pixel_path": "/data/yz/opweave_revision_20260915_v1/fresh_data/prepared/pixels/c45ccc6fbed1d41fe79f6192d518f60885e05bb6d36d5127265ff208b07dd5fb.png",
+      "pixel_file_sha256": "3c978b18d5533cb58de3e4601147f6804f96ab4b040f0b15af11f0adedf8a5b0",
+      "pixel_shape": [
+        3,
+        256,
+        256
+      ],
+      "pixel_dtype": "uint8 PNG; consumer CHW float32 /255",
+      "download": {
+        "url": "https://data.csail.mit.edu/graphics/fivek/img/dng/a0536-IMG_0470.dng",
+        "http_status": 200,
+        "content_length": 12175744,
+        "bytes_received_this_call": 12175744,
+        "resumed_bytes": 0,
+        "elapsed_seconds": 7.533282699998381,
+        "etag": "\"b9c980-4a5f05afb5f00\"",
+        "last_modified": "Fri, 17 Jun 2011 23:00:44 GMT"
+      },
+      "download_attempts": [
+        {
+          "attempt": 1,
+          "status": "COMPLETE",
+          "url": "https://data.csail.mit.edu/graphics/fivek/img/dng/a0536-IMG_0470.dng",
+          "http_status": 200,
+          "content_length": 12175744,
+          "bytes_received_this_call": 12175744,
+          "resumed_bytes": 0,
+          "elapsed_seconds": 7.533282699998381,
+          "etag": "\"b9c980-4a5f05afb5f00\"",
+          "last_modified": "Fri, 17 Jun 2011 23:00:44 GMT"
+        }
+      ],
+      "finished_utc": "2026-09-15T13:31:49.911216+00:00",
+      "elapsed_seconds": 8.308947080000507,
+      "post_download_seconds": 0.7755153949983651,
+      "repeat_decode_identical": null,
+      "status": "PIXELS_PREPARED_NOT_FROZEN",
+      "scheduler": "four-process maximum; unchanged contracted decoder",
+      "old_comparison": {
+        "status": "FULL_3493_OLD_INDEX_NOT_AVAILABLE",
+        "old_cross_content_independence_established": false
+      },
+      "new_duplicate_candidates": [],
+      "new_duplicate_comparison_scope": "PENDING_COMPLETE_BATCH_AUDIT"
+    },
+    {
+      "schema": "opweave-fresh-pixel-row-v1",
+      "source_id": "a2163-IMG_1086",
+      "license_class": "AdobeMIT",
+      "device": "ed13e346bb72bacb272b04bae64eda18b50030cdd29d3842120016dcccba6da6",
+      "device_scope": "New metadata diagnostic HMAC; no requirement that these equal original 12 development devices",
+      "raw_sha256": "005f8ab3004eb90576073633e2315cab9f4032013a5db1e489af38c1afdd90b0",
+      "root": "005f8ab3004eb90576073633e2315cab9f4032013a5db1e489af38c1afdd90b0",
+      "decoded": "47e181e90f0aa7dea704da095d1e98e6c3e11319138127b5ed8d227c08b6cda0",
+      "make_normalized": "CANON",
+      "unique_camera_model_normalized": "CANON EOS 450D",
+      "standard_serial_valid": true,
+      "standard_serial_length": 9,
+      "raw_data_unique_id": "2CCA9241CFBF496F3E6D300E90261CEA",
+      "device_id_source": "Frozen public-source metadata screen diagnostic HMAC; private key remains on originating host",
+      "device_hmac_recomputed_during_decode": false,
+      "metadata_warning_count": 0,
+      "decoded_root_hash": "47e181e90f0aa7dea704da095d1e98e6c3e11319138127b5ed8d227c08b6cda0",
+      "phash64": "d2a5d41ddd2432ce",
+      "root_width": 2856,
+      "root_height": 4290,
+      "crop_box": [
+        639,
+        1233,
+        895,
+        1489
+      ],
+      "crop_rgb_sha256": "ccc38b6a5359a62eded9c182884529c18008f9ddfc292a254672883a31979bee",
+      "pixel_path": "/data/yz/opweave_revision_20260915_v1/fresh_data/prepared/pixels/e1fd6c8491b8dfbe5f874bc09900a8b562a241bc56141ab2edbfd005eba8fdee.png",
+      "pixel_file_sha256": "b99b2f53fd0f21f2634c7a9f3164c0eed2d8c94c7fc1ca73839af17826c0e684",
+      "pixel_shape": [
+        3,
+        256,
+        256
+      ],
+      "pixel_dtype": "uint8 PNG; consumer CHW float32 /255",
+      "download": {
+        "url": "https://data.csail.mit.edu/graphics/fivek/img/dng/a2163-IMG_1086.dng",
+        "http_status": 200,
+        "content_length": 15697104,
+        "bytes_received_this_call": 15697104,
+        "resumed_bytes": 0,
+        "elapsed_seconds": 8.59735962600098,
+        "etag": "\"ef84d0-4a5f0395d6a00\"",
+        "last_modified": "Fri, 17 Jun 2011 22:51:20 GMT"
+      },
+      "download_attempts": [
+        {
+          "attempt": 1,
+          "status": "COMPLETE",
+          "url": "https://data.csail.mit.edu/graphics/fivek/img/dng/a2163-IMG_1086.dng",
+          "http_status": 200,
+          "content_length": 15697104,
+          "bytes_received_this_call": 15697104,
+          "resumed_bytes": 0,
+          "elapsed_seconds": 8.59735962600098,
+          "etag": "\"ef84d0-4a5f0395d6a00\"",
+          "last_modified": "Fri, 17 Jun 2011 22:51:20 GMT"
+        }
+      ],
+      "finished_utc": "2026-09-15T13:20:27.957904+00:00",
+      "elapsed_seconds": 9.360375832002319,
+      "post_download_seconds": 0.7629036149992316,
+      "repeat_decode_identical": null,
+      "status": "PIXELS_PREPARED_NOT_FROZEN",
+      "scheduler": "four-process maximum; unchanged contracted decoder",
+      "old_comparison": {
+        "status": "FULL_3493_OLD_INDEX_NOT_AVAILABLE",
+        "old_cross_content_independence_established": false
+      },
+      "new_duplicate_candidates": [],
+      "new_duplicate_comparison_scope": "PENDING_COMPLETE_BATCH_AUDIT"
+    },
+    {
+      "schema": "opweave-fresh-pixel-row-v1",
+      "source_id": "a0376-IMG_4189",
+      "license_class": "AdobeMIT",
+      "device": "ed13e346bb72bacb272b04bae64eda18b50030cdd29d3842120016dcccba6da6",
+      "device_scope": "New metadata diagnostic HMAC; no requirement that these equal original 12 development devices",
+      "raw_sha256": "db656d4b7457909662162f090eaa4007433de695bf4ac7da4b82dca0afc1d756",
+      "root": "db656d4b7457909662162f090eaa4007433de695bf4ac7da4b82dca0afc1d756",
+      "decoded": "e4f0abd03c91a7b588864a2adb97c3286444da60f82151b1eb3a36dbe78b4929",
+      "make_normalized": "CANON",
+      "unique_camera_model_normalized": "CANON EOS 450D",
+      "standard_serial_valid": true,
+      "standard_serial_length": 9,
+      "raw_data_unique_id": "D6F275484C2FF3943F5CC7828AB85437",
+      "device_id_source": "Frozen public-source metadata screen diagnostic HMAC; private key remains on originating host",
+      "device_hmac_recomputed_during_decode": false,
+      "metadata_warning_count": 0,
+      "decoded_root_hash": "e4f0abd03c91a7b588864a2adb97c3286444da60f82151b1eb3a36dbe78b4929",
+      "phash64": "8504ddaa7857a8fa",
+      "root_width": 4290,
+      "root_height": 2856,
+      "crop_box": [
+        1179,
+        481,
+        1435,
+        737
+      ],
+      "crop_rgb_sha256": "f98c25bbc30bc8875404132523b0c7ff846399247580cc837184e9074ad16b9c",
+      "pixel_path": "/data/yz/opweave_revision_20260915_v1/fresh_data/prepared/pixels/a7f63adfa5f9bd022ce551423430bd56c94b1437f350d3790b038269bbf90638.png",
+      "pixel_file_sha256": "eb8dc13bc117ddc43b47b90ee9299183618dde23875c89ef3695fc5f6706a9ad",
+      "pixel_shape": [
+        3,
+        256,
+        256
+      ],
+      "pixel_dtype": "uint8 PNG; consumer CHW float32 /255",
+      "download": {
+        "url": "https://data.csail.mit.edu/graphics/fivek/img/dng/a0376-IMG_4189.dng",
+        "http_status": 206,
+        "content_length": 12483988,
+        "bytes_received_this_call": 12483988,
+        "resumed_bytes": 0,
+        "elapsed_seconds": 56.0,
+        "etag": "\"be7d94-4a5f057d2a7c0\"",
+        "last_modified": "Fri, 17 Jun 2011 22:59:51 GMT",
+        "transport": "fivek-ranged-resume-v2",
+        "request_attempts_this_call": 13,
+        "raw_sha256": "db656d4b7457909662162f090eaa4007433de695bf4ac7da4b82dca0afc1d756",
+        "transport_state_path": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\09\\05\\01a07153-98a0-73c3-83e3-297f9b8f3662\\raw_relay_v3\\records\\a7f63adfa5f9bd022ce551423430bd56c94b1437f350d3790b038269bbf90638.transport.json",
+        "maximum_range_bytes": 1048576,
+        "maximum_attempts_per_range": 3,
+        "resume_validation": "New download from byte zero"
+      },
+      "relay_transfer_sha256": "8545d589b7cc8b482c2e59fb479061097f7bc75dcb50fb211633642c7d5870d0",
+      "relay_decoder_sha256": "249129c17572a506d63e7f8b60a61f9f79b48a04b8d3944f55ae17f2a82c7558",
+      "finished_utc": "2026-09-15T15:27:42.617617+00:00",
+      "post_download_seconds": 0.7491850789992895,
+      "elapsed_seconds": 56.749185823002335,
+      "repeat_decode_identical": null,
+      "status": "PIXELS_PREPARED_NOT_FROZEN",
+      "previous_transient_attempt": null,
+      "old_comparison": {
+        "status": "FULL_3493_OLD_INDEX_NOT_AVAILABLE",
+        "old_cross_content_independence_established": false
+      },
+      "new_duplicate_candidates": [],
+      "new_duplicate_comparison_scope": "INDEPENDENT_COMPLETE_POOL_AUDIT"
+    }
+  ],
+  "banks": [
+    {
+      "cell": 0,
+      "path": "/home/yz/chainprint_t1_20260917/shared_support_pool_v2/cell_0_canonical_examples_evaluator_only.npz",
+      "sha256": "78858b5cd9fadfaff08ac37246515c2a140c63ee71022b03a86f822630d8dfee",
+      "shape": [
+        8,
+        8,
+        3,
+        256,
+        256
+      ],
+      "traditional_parameters_evaluator_only": [
+        {
+          "code": "J",
+          "params": {
+            "quality": 68,
+            "subsampling": "4:4:4"
+          },
+          "seed": 2026091701,
+          "implementation": null,
+          "external_pair_id": null
+        },
+        {
+          "code": "R",
+          "params": {
+            "scale": 0.5,
+            "interpolation": "bicubic",
+            "restore_size": true
+          },
+          "seed": 2026091701,
+          "implementation": null,
+          "external_pair_id": null
+        },
+        {
+          "code": "B",
+          "params": {
+            "radius": 0.4
+          },
+          "seed": 2026091701,
+          "implementation": null,
+          "external_pair_id": null
+        },
+        {
+          "code": "S",
+          "params": {
+            "radius": 1.2,
+            "percent": 160,
+            "threshold": 2
+          },
+          "seed": 2026091701,
+          "implementation": null,
+          "external_pair_id": null
+        }
+      ],
+      "prior_indices_evaluator_only": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "cell": 1,
+      "path": "/home/yz/chainprint_t1_20260917/shared_support_pool_v2/cell_1_canonical_examples_evaluator_only.npz",
+      "sha256": "ca7de0ac6009922c8415d34cd4b103756694b40cc70bdb4f565b33b68708df7b",
+      "shape": [
+        8,
+        8,
+        3,
+        256,
+        256
+      ],
+      "traditional_parameters_evaluator_only": [
+        {
+          "code": "J",
+          "params": {
+            "quality": 76,
+            "subsampling": "4:4:4"
+          },
+          "seed": 2026091701,
+          "implementation": null,
+          "external_pair_id": null
+        },
+        {
+          "code": "R",
+          "params": {
+            "scale": 0.625,
+            "interpolation": "bicubic",
+            "restore_size": true
+          },
+          "seed": 2026091701,
+          "implementation": null,
+          "external_pair_id": null
+        },
+        {
+          "code": "B",
+          "params": {
+            "radius": 0.8
+          },
+          "seed": 2026091701,
+          "implementation": null,
+          "external_pair_id": null
+        },
+        {
+          "code": "S",
+          "params": {
+            "radius": 1.2,
+            "percent": 160,
+            "threshold": 2
+          },
+          "seed": 2026091701,
+          "implementation": null,
+          "external_pair_id": null
+        }
+      ],
+      "prior_indices_evaluator_only": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "cell": 2,
+      "path": "/home/yz/chainprint_t1_20260917/shared_support_pool_v2/cell_2_canonical_examples_evaluator_only.npz",
+      "sha256": "9895124004d82c909c60e0fbbeb0120aa6aa322ed760cdccdbc5de1ce81b37ef",
+      "shape": [
+        8,
+        8,
+        3,
+        256,
+        256
+      ],
+      "traditional_parameters_evaluator_only": [
+        {
+          "code": "J",
+          "params": {
+            "quality": 84,
+            "subsampling": "4:4:4"
+          },
+          "seed": 2026091701,
+          "implementation": null,
+          "external_pair_id": null
+        },
+        {
+          "code": "R",
+          "params": {
+            "scale": 0.75,
+            "interpolation": "bicubic",
+            "restore_size": true
+          },
+          "seed": 2026091701,
+          "implementation": null,
+          "external_pair_id": null
+        },
+        {
+          "code": "B",
+          "params": {
+            "radius": 1.2
+          },
+          "seed": 2026091701,
+          "implementation": null,
+          "external_pair_id": null
+        },
+        {
+          "code": "S",
+          "params": {
+            "radius": 1.2,
+            "percent": 160,
+            "threshold": 2
+          },
+          "seed": 2026091701,
+          "implementation": null,
+          "external_pair_id": null
+        }
+      ],
+      "prior_indices_evaluator_only": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "cell": 3,
+      "path": "/home/yz/chainprint_t1_20260917/shared_support_pool_v2/cell_3_canonical_examples_evaluator_only.npz",
+      "sha256": "dddcd41d437cd3c440a493d233818ca561d41956bd270de605968a91c3076f3f",
+      "shape": [
+        8,
+        8,
+        3,
+        256,
+        256
+      ],
+      "traditional_parameters_evaluator_only": [
+        {
+          "code": "J",
+          "params": {
+            "quality": 68,
+            "subsampling": "4:4:4"
+          },
+          "seed": 2026091701,
+          "implementation": null,
+          "external_pair_id": null
+        },
+        {
+          "code": "R",
+          "params": {
+            "scale": 0.5,
+            "interpolation": "bicubic",
+            "restore_size": true
+          },
+          "seed": 2026091701,
+          "implementation": null,
+          "external_pair_id": null
+        },
+        {
+          "code": "B",
+          "params": {
+            "radius": 0.4
+          },
+          "seed": 2026091701,
+          "implementation": null,
+          "external_pair_id": null
+        },
+        {
+          "code": "S",
+          "params": {
+            "radius": 1.2,
+            "percent": 160,
+            "threshold": 2
+          },
+          "seed": 2026091701,
+          "implementation": null,
+          "external_pair_id": null
+        }
+      ],
+      "prior_indices_evaluator_only": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "cell": 4,
+      "path": "/home/yz/chainprint_t1_20260917/shared_support_pool_v2/cell_4_canonical_examples_evaluator_only.npz",
+      "sha256": "c892233fd2fc4a2549ff52ec7d8a5949e4f0bcd46ca46e95bcaefaad5e8a49a3",
+      "shape": [
+        8,
+        8,
+        3,
+        256,
+        256
+      ],
+      "traditional_parameters_evaluator_only": [
+        {
+          "code": "J",
+          "params": {
+            "quality": 76,
+            "subsampling": "4:4:4"
+          },
+          "seed": 2026091701,
+          "implementation": null,
+          "external_pair_id": null
+        },
+        {
+          "code": "R",
+          "params": {
+            "scale": 0.625,
+            "interpolation": "bicubic",
+            "restore_size": true
+          },
+          "seed": 2026091701,
+          "implementation": null,
+          "external_pair_id": null
+        },
+        {
+          "code": "B",
+          "params": {
+            "radius": 0.8
+          },
+          "seed": 2026091701,
+          "implementation": null,
+          "external_pair_id": null
+        },
+        {
+          "code": "S",
+          "params": {
+            "radius": 1.2,
+            "percent": 160,
+            "threshold": 2
+          },
+          "seed": 2026091701,
+          "implementation": null,
+          "external_pair_id": null
+        }
+      ],
+      "prior_indices_evaluator_only": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "cell": 5,
+      "path": "/home/yz/chainprint_t1_20260917/shared_support_pool_v2/cell_5_canonical_examples_evaluator_only.npz",
+      "sha256": "96389ec3b49a74f92ef6423960acdd34813ffc5f019c53a408ad1cc619a0cb62",
+      "shape": [
+        8,
+        8,
+        3,
+        256,
+        256
+      ],
+      "traditional_parameters_evaluator_only": [
+        {
+          "code": "J",
+          "params": {
+            "quality": 84,
+            "subsampling": "4:4:4"
+          },
+          "seed": 2026091701,
+          "implementation": null,
+          "external_pair_id": null
+        },
+        {
+          "code": "R",
+          "params": {
+            "scale": 0.75,
+            "interpolation": "bicubic",
+            "restore_size": true
+          },
+          "seed": 2026091701,
+          "implementation": null,
+          "external_pair_id": null
+        },
+        {
+          "code": "B",
+          "params": {
+            "radius": 1.2
+          },
+          "seed": 2026091701,
+          "implementation": null,
+          "external_pair_id": null
+        },
+        {
+          "code": "S",
+          "params": {
+            "radius": 1.2,
+            "percent": 160,
+            "threshold": 2
+          },
+          "seed": 2026091701,
+          "implementation": null,
+          "external_pair_id": null
+        }
+      ],
+      "prior_indices_evaluator_only": [
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  ],
+  "parent_manifest_sha256": "d1312922c4e42c7179d410676039bd7c7959e41201ad20c8015c7d66f694576c",
+  "prior_sha256": "e8fa75dc796460057f87749f4e24716e4d61b2596c2bdf7f5c3e8d131f171241",
+  "K": 8,
+  "inference_interface": "Runner permutes AFTER columns by frozen episode-local mapping; canonical IDs/parameters never reach methods",
+  "source_attempts_sha256": "8aa572e8716177ef817b437746d63f79a4394e497e1248bfaa50853635557886",
+  "ai_calls_sha256": "991b218f0032d013269b646e92a3ea5e5cb8f800bceff6cb15484954a8a6cf50",
+  "frozen_utc": "2026-09-17T11:20:57.353388+00:00",
+  "method_scores_used": 0
+}

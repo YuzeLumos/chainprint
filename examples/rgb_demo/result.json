@@ -1,0 +1,78 @@
+{
+  "metric": "endpoint pixel MSE on [0,1] (lower is better)",
+  "complete_candidates": true,
+  "abstained": false,
+  "ranking": [
+    {
+      "candidate_index": 0,
+      "history": [
+        0,
+        1
+      ],
+      "available": true,
+      "mse": 0.0008394307502619585,
+      "mse_8bit": 54.583984535783856,
+      "unavailable_reason": null,
+      "rank_within_available": 1,
+      "rank": 1
+    },
+    {
+      "candidate_index": 1,
+      "history": [
+        1,
+        0
+      ],
+      "available": true,
+      "mse": 0.007831387986362058,
+      "mse_8bit": 509.23600381319284,
+      "unavailable_reason": null,
+      "rank_within_available": 2,
+      "rank": 2
+    },
+    {
+      "candidate_index": 2,
+      "history": [
+        0,
+        0
+      ],
+      "available": true,
+      "mse": 0.008285745875118078,
+      "mse_8bit": 538.780625529553,
+      "unavailable_reason": null,
+      "rank_within_available": 3,
+      "rank": 3
+    },
+    {
+      "candidate_index": 3,
+      "history": [
+        1,
+        1
+      ],
+      "available": true,
+      "mse": 0.021695345954365928,
+      "mse_8bit": 1410.7398706826446,
+      "unavailable_reason": null,
+      "rank_within_available": 4,
+      "rank": 4
+    }
+  ],
+  "best_candidate_indices": [
+    0
+  ],
+  "conditional_best_available_indices": [
+    0
+  ],
+  "decision_scope": "complete candidate set",
+  "scope": "Reduced original-library diagnostic; no full hierarchy, AI prior, or paper-performance claim",
+  "demo_scope": "Fresh generated RGB images; reduced original analytical joint diagnostic, not the full paper benchmark",
+  "paired_supports": 8,
+  "query_content_not_in_supports": true,
+  "model_hash": "0d53ee1d2dea538cc1890d78d026f0b5ba2f32cb8045f33dfeaaab13ba2988ce",
+  "frozen_bank_check": {
+    "cell": 0,
+    "slot": 0,
+    "finite": true,
+    "prediction_mse_from_input": 0.03013239701038963,
+    "scope": "Original parameter loading and real operator execution; no accuracy claim"
+  }
+}

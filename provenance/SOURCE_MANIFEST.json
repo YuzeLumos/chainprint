@@ -1,0 +1,548 @@
+{
+  "schema": "chainprint-source-bindings-v1",
+  "files": [
+    {
+      "module": "ai_operator",
+      "source_path": "ai_operator.py",
+      "sha256": "8ed6198bf6c4f703acbcdcb49f2478c9e10df254b4c25aa7fe264e76bc592e69",
+      "bytes": 21583,
+      "path": "src/ai_operator.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-operation-estimator"
+    },
+    {
+      "module": "gain_block",
+      "source_path": "code/gain_block.py",
+      "sha256": "a8ace2f0af6ef4111ff0ddbe0e637716996ca2f8006851f34a41e9e46e264d8d",
+      "bytes": 11508,
+      "path": "src/gain_block.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-operation-estimator"
+    },
+    {
+      "module": "chainprint_shared_residual",
+      "source_path": "chainprint_shared_residual.py",
+      "sha256": "ae3dfde9f1bd75eac1637f5a4cca3c0bea103a8295c5568b4caee2e6a2b46528",
+      "bytes": 5062,
+      "path": "src/chainprint_shared_residual.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-shared-residual"
+    },
+    {
+      "module": "opweave_frozen_20260916",
+      "source_path": "code/opweave_frozen_20260916.py",
+      "sha256": "db76716fa902691025e8536552405c4ad01976f50c5832aadc29a5305653898e",
+      "bytes": 5772,
+      "path": "src/opweave_frozen_20260916.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-operation-estimator"
+    },
+    {
+      "module": "final_local_extension",
+      "source_path": "code/final_local_extension.py",
+      "sha256": "70a8d9a512f4ee234ad71624ba46c114695cb1951972d184901bba4700354d97",
+      "bytes": 11007,
+      "path": "src/final_local_extension.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-operation-estimator"
+    },
+    {
+      "module": "history_recovery.chainprint_quantized_separable_likelihood",
+      "source_path": "src/history_recovery/chainprint_quantized_separable_likelihood.py",
+      "sha256": "66e74a604416d21af7e6d31b1a50462b38e46d998c793ca7e0026e1cc815bacc",
+      "bytes": 2822,
+      "path": "src/history_recovery/chainprint_quantized_separable_likelihood.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "joint_block_cache",
+      "source_path": "code/joint_block_cache.py",
+      "sha256": "81f0cf80c69526cab87f96533a533456af658934fbe7686c22a9a6a605f0a986",
+      "bytes": 9088,
+      "path": "src/joint_block_cache.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-operation-estimator"
+    },
+    {
+      "module": "threshold_block",
+      "source_path": "code/threshold_block.py",
+      "sha256": "fc3540c5a7c0719b0a21d3af0daa0f55aec832041a08b2b50ea0c06cad8d1d87",
+      "bytes": 8108,
+      "path": "src/threshold_block.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-operation-estimator"
+    },
+    {
+      "module": "extended_mixed_estimator",
+      "source_path": "code/extended_mixed_estimator.py",
+      "sha256": "ba921df2709850a0c898c72f0abbcd1b96f376903721bb82553ea8f3dc3e050b",
+      "bytes": 12044,
+      "path": "src/extended_mixed_estimator.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-operation-estimator"
+    },
+    {
+      "module": "unit_gain_extension",
+      "source_path": "code/unit_gain_extension.py",
+      "sha256": "81904cdff3f2d78b9ca93ed4f045da1c8b36808af5e2baae7596a062e6f6eb6c",
+      "bytes": 11389,
+      "path": "src/unit_gain_extension.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-operation-estimator"
+    },
+    {
+      "module": "integer_local_response",
+      "source_path": "code/integer_local_response.py",
+      "sha256": "d5c2e3c21ac1fdf3410da6602768f7123eba038ed6b79e0a57861568b83cf660",
+      "bytes": 11904,
+      "path": "src/integer_local_response.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-operation-estimator"
+    },
+    {
+      "module": "history_recovery.chainprint_resampling_geometry",
+      "source_path": "src/history_recovery/chainprint_resampling_geometry.py",
+      "sha256": "198924b073057e1f60d669b80075887d73caa4fe581d500394a2498c1fa9b748",
+      "bytes": 4602,
+      "path": "src/history_recovery/chainprint_resampling_geometry.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "history_recovery.chainprint_quantized_separable",
+      "source_path": "src/history_recovery/chainprint_quantized_separable.py",
+      "sha256": "55c4932a886e627a6064577baf79cc706f127e9074a3a4e3324ca882cd165ccd",
+      "bytes": 3073,
+      "path": "src/history_recovery/chainprint_quantized_separable.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "history_recovery",
+      "source_path": "src/history_recovery/__init__.py",
+      "sha256": "0edcf08300abdd1647e6e9bcf053de8bcb3a0e7f2d5ad64c246bd5daed8fb427",
+      "bytes": 99,
+      "path": "src/history_recovery/__init__.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "history_recovery.chainprint_codec_replay",
+      "source_path": "src/history_recovery/chainprint_codec_replay.py",
+      "sha256": "b652a35f13f8d3d245014de89fb822ef7117f6c949ad4bdd16047968a1283343",
+      "bytes": 4230,
+      "path": "src/history_recovery/chainprint_codec_replay.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "mixed_estimator",
+      "source_path": "mixed_estimator.py",
+      "sha256": "8f15355cbbe25d122ddecbd1f00ab1ccd289853ea4cede5c331918673414b177",
+      "bytes": 7109,
+      "path": "src/mixed_estimator.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-operation-estimator"
+    },
+    {
+      "module": "support_correction_pool",
+      "source_path": "code/support_correction_pool.py",
+      "sha256": "93e59dec59858ff85fab1cb808d997b37610fc6c063a55dfa35167439079d72f",
+      "bytes": 10850,
+      "path": "src/support_correction_pool.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-operation-estimator"
+    },
+    {
+      "module": "history_recovery.chainprint_radix_offset",
+      "source_path": "src/history_recovery/chainprint_radix_offset.py",
+      "sha256": "701809b8d6e99704d7a853d6f4a55b642a29caab36e085552f3bc94af152df5b",
+      "bytes": 1959,
+      "path": "src/history_recovery/chainprint_radix_offset.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "joint_fit",
+      "source_path": "joint_fit.py",
+      "sha256": "97c16c91e273a545cbdb77c5afd422dfbc74d1a3d3fdec16fac480dfac4b9eaa",
+      "bytes": 24368,
+      "path": "src/joint_fit.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-operation-estimator"
+    },
+    {
+      "module": "history_recovery.chainprint_fused_offset",
+      "source_path": "src/history_recovery/chainprint_fused_offset.py",
+      "sha256": "3afd13c426cb5c48e463348fbdc685278a02db8ee5f2d6892b6902509d02ff4e",
+      "bytes": 7080,
+      "path": "src/history_recovery/chainprint_fused_offset.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "history_recovery.chainprint_color_response",
+      "source_path": "src/history_recovery/chainprint_color_response.py",
+      "sha256": "285316504cd21eee4ef658ef25235a610af7cc7fcd93fa6939353b397e43c56d",
+      "bytes": 3864,
+      "path": "src/history_recovery/chainprint_color_response.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "history_recovery.chainprint_prefix_cache",
+      "source_path": "src/history_recovery/chainprint_prefix_cache.py",
+      "sha256": "4215adb67582294c6598a3e7da287a0358acf8b73948e9ff1b30efbbbafe7a62",
+      "bytes": 2840,
+      "path": "src/history_recovery/chainprint_prefix_cache.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "history_recovery.chainprint_deadzone_response",
+      "source_path": "src/history_recovery/chainprint_deadzone_response.py",
+      "sha256": "3e3add1b91bd0a9ee97970c3807b05829daad349eea9f13abad8da89c9a81d67",
+      "bytes": 4088,
+      "path": "src/history_recovery/chainprint_deadzone_response.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "history_recovery.chainprint_cached_offset",
+      "source_path": "src/history_recovery/chainprint_cached_offset.py",
+      "sha256": "3e1705f5c5ecfaded69f703eb0f7d39e3ac7b7bb7b7743fe8697d8612ba49488",
+      "bytes": 2482,
+      "path": "src/history_recovery/chainprint_cached_offset.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "history_recovery.chainprint_offset_candidate",
+      "source_path": "src/history_recovery/chainprint_offset_candidate.py",
+      "sha256": "8fcf7f5a000c8e5a1f4d8fcc4aaf06d6677b15b47cc6f57795039c64c820622e",
+      "bytes": 2542,
+      "path": "src/history_recovery/chainprint_offset_candidate.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "history_recovery.chainprint_block_candidate",
+      "source_path": "src/history_recovery/chainprint_block_candidate.py",
+      "sha256": "e2d8af40c7266a6f8aea155c8c792674a382b3a8a7ac52fdfd8d7d858d1ca358",
+      "bytes": 5185,
+      "path": "src/history_recovery/chainprint_block_candidate.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "history_recovery.chainprint_response_calibration",
+      "source_path": "src/history_recovery/chainprint_response_calibration.py",
+      "sha256": "71a2a53e374157c6fbeb8a32d4120082e4d6c9754f410804201bff38d81a01d6",
+      "bytes": 2567,
+      "path": "src/history_recovery/chainprint_response_calibration.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "history_recovery.chainprint_quantization_offset",
+      "source_path": "src/history_recovery/chainprint_quantization_offset.py",
+      "sha256": "cf12eb5852bfd49a7631cfdbbdf9a95e01f67ae43afd85752be0395c8567d740",
+      "bytes": 4835,
+      "path": "src/history_recovery/chainprint_quantization_offset.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "history_recovery.chainprint_block_quantization",
+      "source_path": "src/history_recovery/chainprint_block_quantization.py",
+      "sha256": "c37df96d60d1cf419efd253a375efa6c2da27001aa19785e1fd9548798565948",
+      "bytes": 5615,
+      "path": "src/history_recovery/chainprint_block_quantization.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "history_recovery.chainprint_frozen_candidate",
+      "source_path": "src/history_recovery/chainprint_frozen_candidate.py",
+      "sha256": "38f3d2bf66aa5da75c4ba27b221aef15fada2f052de75df11483fafd40d4aeca",
+      "bytes": 4269,
+      "path": "src/history_recovery/chainprint_frozen_candidate.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "history_recovery.chainprint_quantized_likelihood",
+      "source_path": "src/history_recovery/chainprint_quantized_likelihood.py",
+      "sha256": "e9b8da2d9b6e32f600da1a6f96c040df18c67bc4202d3410409ff1273e1bc424",
+      "bytes": 4049,
+      "path": "src/history_recovery/chainprint_quantized_likelihood.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "history_recovery.chainprint_multires_quantization",
+      "source_path": "src/history_recovery/chainprint_multires_quantization.py",
+      "sha256": "5af8801a1b58537358c07f5d3e7761107c21728aba5c24d629318bbf496c90d7",
+      "bytes": 5530,
+      "path": "src/history_recovery/chainprint_multires_quantization.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "history_recovery.chainprint_general_query_variance",
+      "source_path": "src/history_recovery/chainprint_general_query_variance.py",
+      "sha256": "c7473aaf2b14d8f61d5a1ded681c8049e221a3001506c83231a64a22aafd8774",
+      "bytes": 826,
+      "path": "src/history_recovery/chainprint_general_query_variance.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "history_recovery.chainprint_hierarchical_readout",
+      "source_path": "src/history_recovery/chainprint_hierarchical_readout.py",
+      "sha256": "b50069a53ceef9f1552d504c7f42b0f4dd6fa482517d28b63f9859eee78f09fd",
+      "bytes": 1982,
+      "path": "src/history_recovery/chainprint_hierarchical_readout.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "history_recovery.chainprint_local_response",
+      "source_path": "src/history_recovery/chainprint_local_response.py",
+      "sha256": "04a1027da252fdbd1393e67626a12bebc8824f0cc28e41ca76b7fc953a10eaf6",
+      "bytes": 3738,
+      "path": "src/history_recovery/chainprint_local_response.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "history_recovery.chainprint_prototype_calibration",
+      "source_path": "src/history_recovery/chainprint_prototype_calibration.py",
+      "sha256": "269ae2af47551af675cafad27ac0782fda2b2ca50b982c3bef059a16ed9de355",
+      "bytes": 1307,
+      "path": "src/history_recovery/chainprint_prototype_calibration.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "history_recovery.chainprint_spatial_transition",
+      "source_path": "src/history_recovery/chainprint_spatial_transition.py",
+      "sha256": "74265d0f7f59c1ce00e2bcff718b67964a5bb9107ffc225c9ea35ddab2a0eb6f",
+      "bytes": 14598,
+      "path": "src/history_recovery/chainprint_spatial_transition.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "history_recovery.chainprint_support_replay",
+      "source_path": "src/history_recovery/chainprint_support_replay.py",
+      "sha256": "09ed3ca824346d9ee92c1538f40e2b5a5c8e05d01ddae707b29706f0cd53975f",
+      "bytes": 6196,
+      "path": "src/history_recovery/chainprint_support_replay.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "history_recovery.chainprint_general_replay",
+      "source_path": "src/history_recovery/chainprint_general_replay.py",
+      "sha256": "554dd9528abadd372173bdbedae79c1fae4de41fb89e6c05dee8fd4995c54d8b",
+      "bytes": 2724,
+      "path": "src/history_recovery/chainprint_general_replay.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "module": "history_recovery.chainprint_query_variance",
+      "source_path": "src/history_recovery/chainprint_query_variance.py",
+      "sha256": "bdbabac0d8dee27a81a71f55951176556b91d52d90e767e7d8791739682258da",
+      "bytes": 2062,
+      "path": "src/history_recovery/chainprint_query_variance.py",
+      "transform": "none; exact source bytes",
+      "source_root": "frozen-analytical-library"
+    },
+    {
+      "path": "provenance/frozen/final_closeout/code/run_chainprint_strict_g8_k_curve_v3.py",
+      "source_path": "code/run_chainprint_strict_g8_k_curve_v3.py",
+      "sha256": "07081867250a0276e61e3bb7b9025ad991926a6ba7e4d831ecccc47a3e8850e1",
+      "transform": "none; historical evidence, not executable release configuration",
+      "source_root": "frozen-final-closeout"
+    },
+    {
+      "path": "provenance/frozen/final_closeout/code/chainprint_final_closeout_20260925_v1.json",
+      "source_path": "code/chainprint_final_closeout_20260925_v1.json",
+      "sha256": "229b5b240d7cb649901c5ff1a4f209829d73186b520847ee1dffda96f723c8ff",
+      "transform": "none; historical evidence, not executable release configuration",
+      "source_root": "frozen-final-closeout"
+    },
+    {
+      "path": "provenance/frozen/final_closeout/code/chainprint_final_closeout_20260925_v3_engineering.json",
+      "source_path": "code/chainprint_final_closeout_20260925_v3_engineering.json",
+      "sha256": "ed2b734d8c8441fba85aaaae065b54b8a60e42c42a32f34d184b6f4455d097e3",
+      "transform": "none; historical evidence, not executable release configuration",
+      "source_root": "frozen-final-closeout"
+    },
+    {
+      "path": "provenance/frozen/final_closeout/strict_g8_k_curve_v3/RUN_CONTRACT.json",
+      "source_path": "strict_g8_k_curve_v3/RUN_CONTRACT.json",
+      "sha256": "4362395c07433d43e0435004eb9bf97f678939b04ec7077e33c32fbb4c7284ce",
+      "transform": "none; historical evidence, not executable release configuration",
+      "source_root": "frozen-final-closeout"
+    },
+    {
+      "path": "provenance/frozen/final_closeout/FINAL_REPORT.md",
+      "source_path": "FINAL_REPORT.md",
+      "sha256": "2c5041395911c25ef53c0213eaef300ed60af61662b6ec907648911206d71e4e",
+      "transform": "none; historical evidence, not executable release configuration",
+      "source_root": "frozen-final-closeout"
+    },
+    {
+      "path": "provenance/frozen/runners/fit_main_eight_slot_banks.py",
+      "source_path": "code/fit_main_eight_slot_banks.py",
+      "sha256": "76a164d27fa9919fb263bd5d3658cacc8492eb99986bc2d73e3bd5e8395101ca",
+      "transform": "none; archival runner",
+      "source_root": "frozen-image-experiments"
+    },
+    {
+      "path": "provenance/frozen/runners/fit_native_k_support_v1.py",
+      "source_path": "code/fit_native_k_support_v1.py",
+      "sha256": "060f02f27973a18bee5355d73d76941ea597012043344cbf099bdf313aef8571",
+      "transform": "none; archival runner",
+      "source_root": "frozen-image-experiments"
+    },
+    {
+      "path": "provenance/frozen/runners/run_chainprint_conventional_main.py",
+      "source_path": "code/run_chainprint_conventional_main.py",
+      "sha256": "e9a9c93affe8213ccf1b1575f76d6e14d0061bebca48f6e0eec7f0a45b2559c5",
+      "transform": "none; archival runner",
+      "source_root": "frozen-image-experiments"
+    },
+    {
+      "path": "provenance/frozen/runners/confirmation_recipe.py",
+      "source_path": "code/confirmation_recipe.py",
+      "sha256": "98921e76f83b5a94297642cdb662e98253d1eb396e542768cc0aaf31dc4461c5",
+      "transform": "none; archival runner",
+      "source_root": "frozen-image-experiments"
+    },
+    {
+      "path": "src/chainprint/assets/models/cell_0_anonymous_models.pt",
+      "source_path": "main_eight_slot_fits_v1/cell_0_anonymous_models.pt",
+      "sha256": "192d371d5fd4938d550001884d8e367b01e22b4bdf714df37be614a7e32e70b1",
+      "bytes": 1095381,
+      "transform": "none; checked against original aggregate and strict G8 run contract",
+      "source_root": "frozen-image-experiments"
+    },
+    {
+      "path": "src/chainprint/assets/models/cell_1_anonymous_models.pt",
+      "source_path": "main_eight_slot_fits_v1/cell_1_anonymous_models.pt",
+      "sha256": "d598e98e6f7ab653231ab30f1d0be4267cca6037dc26a738edf8bd6633d08399",
+      "bytes": 1095253,
+      "transform": "none; checked against original aggregate and strict G8 run contract",
+      "source_root": "frozen-image-experiments"
+    },
+    {
+      "path": "src/chainprint/assets/models/cell_2_anonymous_models.pt",
+      "source_path": "main_eight_slot_fits_v1/cell_2_anonymous_models.pt",
+      "sha256": "50dddb91240f97d1f8552f17f9e868a39725db9e7375073c31e6fff4a718ab0c",
+      "bytes": 1095253,
+      "transform": "none; checked against original aggregate and strict G8 run contract",
+      "source_root": "frozen-image-experiments"
+    },
+    {
+      "path": "src/chainprint/assets/models/cell_3_anonymous_models.pt",
+      "source_path": "main_eight_slot_fits_v1/cell_3_anonymous_models.pt",
+      "sha256": "ee1b470b894c9a3ff8ff7c0bf86f36da6fa1be7fd1a44540444eac6b3cce8d06",
+      "bytes": 1095381,
+      "transform": "none; checked against original aggregate and strict G8 run contract",
+      "source_root": "frozen-image-experiments"
+    },
+    {
+      "path": "src/chainprint/assets/models/cell_4_anonymous_models.pt",
+      "source_path": "main_eight_slot_fits_v1/cell_4_anonymous_models.pt",
+      "sha256": "5abcfb525a55fe804b5df1e871f6aa125decebd1777c42cf278c7cfee535fa24",
+      "bytes": 1095253,
+      "transform": "none; checked against original aggregate and strict G8 run contract",
+      "source_root": "frozen-image-experiments"
+    },
+    {
+      "path": "src/chainprint/assets/models/cell_5_anonymous_models.pt",
+      "source_path": "main_eight_slot_fits_v1/cell_5_anonymous_models.pt",
+      "sha256": "a20f9f4494ba830519aaa66ed60eba2332eb006a716792927fdd8ab474abae37",
+      "bytes": 1095253,
+      "transform": "none; checked against original aggregate and strict G8 run contract",
+      "source_root": "frozen-image-experiments"
+    },
+    {
+      "path": "src/chainprint/control/experiment.py",
+      "source_path": "code/direction_control/run_controlled_direction.py",
+      "source_sha256": "e0171118d57d94e508d64691393db41a7164e93aa6f3120630e00c336537b265",
+      "sha256": "17c2902069abf733e698019cf7b098c39a7979476aa7299858dc5534f24845cb",
+      "transform": "Relative helper import; optional plotting; fresh-output guard; line endings normalized. Numerical procedure unchanged.",
+      "source_root": "submission-supplementary"
+    },
+    {
+      "path": "src/chainprint/control/support_history_geometry.py",
+      "source_path": "code/direction_control/support_history_geometry.py",
+      "source_sha256": "d33c37ebe12b8d93ec8fa1a7d43a69ea500cc2ad64c128efe657ad60abd5d441",
+      "sha256": "d33c37ebe12b8d93ec8fa1a7d43a69ea500cc2ad64c128efe657ad60abd5d441",
+      "transform": "none",
+      "source_root": "submission-supplementary"
+    },
+    {
+      "path": "provenance/frozen/method_notes/AI_OPERATOR_NOTES.md",
+      "source_path": "AI_OPERATOR_NOTES.md",
+      "sha256": "6b3f6c2c82e5a167ebdd59f708116aa9d4147347fe86143cbf49265496e0928f",
+      "transform": "none",
+      "source_root": "frozen-operation-estimator"
+    },
+    {
+      "path": "provenance/frozen/method_notes/JOINT_FIT_NOTES.md",
+      "source_path": "JOINT_FIT_NOTES.md",
+      "sha256": "0fce87bf7d8d44bab25299b054a9a3e4354823c7fa9076a2716261f5b62fde9a",
+      "transform": "none",
+      "source_root": "frozen-operation-estimator"
+    }
+  ],
+  "external_imports": [
+    "PIL",
+    "__future__",
+    "collections",
+    "copy",
+    "dataclasses",
+    "diffusers",
+    "hashlib",
+    "importlib.metadata",
+    "io",
+    "itertools",
+    "json",
+    "math",
+    "numbers",
+    "numpy",
+    "os",
+    "re",
+    "struct",
+    "threading",
+    "time",
+    "torch",
+    "torch.nn",
+    "typing"
+  ],
+  "original_source_file_count": 40,
+  "portable_adapter": {
+    "files": [
+      "src/chainprint/api.py",
+      "src/chainprint/cli.py",
+      "src/chainprint/demo.py"
+    ],
+    "fitting_slice_source": "frozen-analytical-library:src/history_recovery/chainprint_supplement.py::VariableHistoryCandidate.prepare_support",
+    "change": "Expose only the exact fits/diagnostics consumed by MixedEstimator; no old neural fallback is constructed."
+  },
+  "source_roots": {
+    "frozen-operation-estimator": "Frozen paired-operation estimator and extension code",
+    "frozen-analytical-library": "Analytical history_recovery library snapshot used by the frozen estimator",
+    "frozen-shared-residual": "Frozen shared-residual correction helper",
+    "frozen-final-closeout": "Original final experiment closeout receipt tree",
+    "frozen-image-experiments": "Original image experiment runners and fitted banks",
+    "submission-supplementary": "Citation-updated local submission supplementary archive"
+  }
+}

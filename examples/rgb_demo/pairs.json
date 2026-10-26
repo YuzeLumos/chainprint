@@ -1,0 +1,60 @@
+{
+  "supports": [
+    {
+      "before": "inputs/support_0_before.png",
+      "after": [
+        "inputs/support_0_slot_0.png",
+        "inputs/support_0_slot_1.png"
+      ]
+    },
+    {
+      "before": "inputs/support_1_before.png",
+      "after": [
+        "inputs/support_1_slot_0.png",
+        "inputs/support_1_slot_1.png"
+      ]
+    },
+    {
+      "before": "inputs/support_2_before.png",
+      "after": [
+        "inputs/support_2_slot_0.png",
+        "inputs/support_2_slot_1.png"
+      ]
+    },
+    {
+      "before": "inputs/support_3_before.png",
+      "after": [
+        "inputs/support_3_slot_0.png",
+        "inputs/support_3_slot_1.png"
+      ]
+    },
+    {
+      "before": "inputs/support_4_before.png",
+      "after": [
+        "inputs/support_4_slot_0.png",
+        "inputs/support_4_slot_1.png"
+      ]
+    },
+    {
+      "before": "inputs/support_5_before.png",
+      "after": [
+        "inputs/support_5_slot_0.png",
+        "inputs/support_5_slot_1.png"
+      ]
+    },
+    {
+      "before": "inputs/support_6_before.png",
+      "after": [
+        "inputs/support_6_slot_0.png",
+        "inputs/support_6_slot_1.png"
+      ]
+    },
+    {
+      "before": "inputs/support_7_before.png",
+      "after": [
+        "inputs/support_7_slot_0.png",
+        "inputs/support_7_slot_1.png"
+      ]
+    }
+  ]
+}

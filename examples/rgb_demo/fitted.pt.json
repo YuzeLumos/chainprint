@@ -1,0 +1,134 @@
+{
+  "schema": "chainprint-fitted-library-v1",
+  "sha256": "f9b2e363c95d6c306b6115297e57a3a1016f95598a2079ee182b9165c3ba1782",
+  "model_hash": "0d53ee1d2dea538cc1890d78d026f0b5ba2f32cb8045f33dfeaaab13ba2988ce",
+  "metadata": {
+    "mode": "diagnostic-joint",
+    "families": [
+      "spatial_linear",
+      "color_affine",
+      "pointwise_quantizer"
+    ],
+    "records": [
+      {
+        "fit_version": "opweave-joint-support-v1",
+        "slot": 0,
+        "support_count": 8,
+        "support_signature_sha256": "9f2e899a8f56d37d64f7e3b6ad85ca1308affc359300c2ad5750b9fd52b1b7ff",
+        "family": "color_affine",
+        "families": [
+          "spatial_linear",
+          "color_affine",
+          "pointwise_quantizer"
+        ],
+        "selected": 1,
+        "support_mse_8bit": [
+          [
+            169.31057943935826,
+            183.66930469014991,
+            180.69632207205964,
+            168.47333950146788,
+            157.43785641340938,
+            177.61396496851913,
+            170.38838071170937,
+            200.32685505767805
+          ],
+          [
+            1.8196611996729424,
+            1.5686850258457643,
+            1.8828123814358202,
+            1.4918616626094192,
+            1.333331923965723,
+            1.3414713194366097,
+            1.50813800210051,
+            2.262695599201591
+          ],
+          [
+            584.7382851437625,
+            593.0735725836234,
+            605.642908153226,
+            592.488935624201,
+            588.9108129191517,
+            614.0800838109577,
+            590.0856168693819,
+            606.2197300762829
+          ]
+        ],
+        "mean_support_mse_8bit": [
+          175.98957535679392,
+          1.6510821392835475,
+          596.9049931475734
+        ],
+        "selection_rule": "lowest equal-content full-image 8-bit MSE; canonical fixed-order ties",
+        "complete_library": false,
+        "grid_diagnostics": {},
+        "quantized_separable_terminal_surrogate_loss": null,
+        "optimizer_scope": "Analytic/same-grid joint fits; quantized separable is a 128-step nonconvex STE approximation; see JOINT_FIT_NOTES.md",
+        "selection_scope": "Support fitting/selection only, not independent validation"
+      },
+      {
+        "fit_version": "opweave-joint-support-v1",
+        "slot": 1,
+        "support_count": 8,
+        "support_signature_sha256": "9f2e899a8f56d37d64f7e3b6ad85ca1308affc359300c2ad5750b9fd52b1b7ff",
+        "family": "pointwise_quantizer",
+        "families": [
+          "spatial_linear",
+          "color_affine",
+          "pointwise_quantizer"
+        ],
+        "selected": 2,
+        "support_mse_8bit": [
+          [
+            440.10808605680717,
+            434.07943714646177,
+            427.40105204282617,
+            430.82065023730553,
+            439.3460386632687,
+            438.3437611615456,
+            447.56967507826977,
+            439.48633854995677
+          ],
+          [
+            441.11199299303667,
+            432.34636481217245,
+            431.59799296128887,
+            433.1032030683745,
+            443.02735493947574,
+            439.0605587707285,
+            450.2994933702028,
+            442.4244901094776
+          ],
+          [
+            3.610303099266362e-12,
+            3.72396832517431e-12,
+            3.624490173810132e-12,
+            3.5818688131054914e-12,
+            3.643427210347949e-12,
+            3.525022936746522e-12,
+            3.4823863972132766e-12,
+            3.4966026729320773e-12
+          ]
+        ],
+        "mean_support_mse_8bit": [
+          437.1443798670552,
+          439.1214313780946,
+          3.5860087035745153e-12
+        ],
+        "selection_rule": "lowest equal-content full-image 8-bit MSE; canonical fixed-order ties",
+        "complete_library": false,
+        "grid_diagnostics": {},
+        "quantized_separable_terminal_surrogate_loss": null,
+        "optimizer_scope": "Analytic/same-grid joint fits; quantized separable is a 128-step nonconvex STE approximation; see JOINT_FIT_NOTES.md",
+        "selection_scope": "Support fitting/selection only, not independent validation"
+      }
+    ],
+    "scope": "Reduced original-library diagnostic; no full hierarchy, AI prior, or paper-performance claim",
+    "support_count": 8,
+    "operation_count": 2,
+    "seconds": 0.0454681000119308,
+    "support_before_sha256": "66e64f5eb7d893d72eff0b099e2fc31b277b075d19a9ced3e919f59513e60e20",
+    "support_after_sha256": "c306251f411745d2cbad261d02b35477a4eeb86aff4d94491794f48cba6d5ef9",
+    "model_hash": "0d53ee1d2dea538cc1890d78d026f0b5ba2f32cb8045f33dfeaaab13ba2988ce"
+  }
+}

@@ -1,0 +1,15 @@
+ChainPrint local release candidate
+
+The original project authors have not yet selected a repository-wide software
+license for this release. This candidate does not grant a new MIT, Apache or
+other redistribution license. The authors must choose and add the appropriate
+license before public release.
+
+Numerical source files and operation-parameter banks retain their original
+provenance. Exact sources, hashes and packaging transformations are recorded
+in provenance/SOURCE_MANIFEST.json. New portability wrappers and tests are
+identified by their separate chainprint package and tests directory.
+
+NumPy, Pillow, PyTorch, Matplotlib and optional editor libraries retain their
+own licenses. Third-party image datasets and Stable Diffusion editor weights
+are not redistributed in this candidate.

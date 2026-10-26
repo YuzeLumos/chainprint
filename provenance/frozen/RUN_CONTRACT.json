@@ -1,0 +1,139 @@
+{
+  "schema": "chainprint-eight-anonymous-slot-main-fits-v1",
+  "method_version": "opweave-dev-20260916-final",
+  "method_entry_sha256": "db76716fa902691025e8536552405c4ad01976f50c5832aadc29a5305653898e",
+  "source_manifest_sha256": "d1312922c4e42c7179d410676039bd7c7959e41201ad20c8015c7d66f694576c",
+  "shared_pool_sha256": "98fd7cf922f384821d07b3f2a7bc02fe09dc1c13a0dcda6289700628c5ded430",
+  "support_prior_memo_sha256": "afb6a52639399d87355912c998331f8e8e347c6b6cfe4558cb389ddd20be04e1",
+  "declared_prior": {
+    "declaration_id": "opweave-confirmation-editor-prior-20260915-v1",
+    "scope": "matched declared editor and finite configuration prior",
+    "same_prior_for_all_anonymous_slots": true,
+    "candidates": [
+      {
+        "prompt": "a patch of red flowers",
+        "negative_prompt": "",
+        "seed": 112,
+        "strength": 1.0,
+        "guidance_scale": 7.5,
+        "num_inference_steps": 25,
+        "mask_sha256": "44b5f8b10694eefa8985030d60998911dd11c87a519cc595db4965d1267a04d7",
+        "mask_shape": [
+          256,
+          256
+        ],
+        "mask_rule": "binary nonzero support for diffusion; fixed soft alpha for final blend"
+      },
+      {
+        "prompt": "a patch of red flowers",
+        "negative_prompt": "",
+        "seed": 317,
+        "strength": 1.0,
+        "guidance_scale": 7.5,
+        "num_inference_steps": 25,
+        "mask_sha256": "44b5f8b10694eefa8985030d60998911dd11c87a519cc595db4965d1267a04d7",
+        "mask_shape": [
+          256,
+          256
+        ],
+        "mask_rule": "binary nonzero support for diffusion; fixed soft alpha for final blend"
+      },
+      {
+        "prompt": "a patch of red flowers",
+        "negative_prompt": "",
+        "seed": 112,
+        "strength": 1.0,
+        "guidance_scale": 7.5,
+        "num_inference_steps": 25,
+        "mask_sha256": "da3ffcdda60cc5ca5ff187898c2d49d7d2e6938b6f023b91b1e2dd61deac83db",
+        "mask_shape": [
+          256,
+          256
+        ],
+        "mask_rule": "binary nonzero support for diffusion; fixed soft alpha for final blend"
+      },
+      {
+        "prompt": "a patch of red flowers",
+        "negative_prompt": "",
+        "seed": 317,
+        "strength": 1.0,
+        "guidance_scale": 7.5,
+        "num_inference_steps": 25,
+        "mask_sha256": "da3ffcdda60cc5ca5ff187898c2d49d7d2e6938b6f023b91b1e2dd61deac83db",
+        "mask_shape": [
+          256,
+          256
+        ],
+        "mask_rule": "binary nonzero support for diffusion; fixed soft alpha for final blend"
+      },
+      {
+        "prompt": "a small blue ceramic vase",
+        "negative_prompt": "",
+        "seed": 112,
+        "strength": 1.0,
+        "guidance_scale": 7.5,
+        "num_inference_steps": 25,
+        "mask_sha256": "44b5f8b10694eefa8985030d60998911dd11c87a519cc595db4965d1267a04d7",
+        "mask_shape": [
+          256,
+          256
+        ],
+        "mask_rule": "binary nonzero support for diffusion; fixed soft alpha for final blend"
+      },
+      {
+        "prompt": "a small blue ceramic vase",
+        "negative_prompt": "",
+        "seed": 317,
+        "strength": 1.0,
+        "guidance_scale": 7.5,
+        "num_inference_steps": 25,
+        "mask_sha256": "44b5f8b10694eefa8985030d60998911dd11c87a519cc595db4965d1267a04d7",
+        "mask_shape": [
+          256,
+          256
+        ],
+        "mask_rule": "binary nonzero support for diffusion; fixed soft alpha for final blend"
+      },
+      {
+        "prompt": "a small blue ceramic vase",
+        "negative_prompt": "",
+        "seed": 112,
+        "strength": 1.0,
+        "guidance_scale": 7.5,
+        "num_inference_steps": 25,
+        "mask_sha256": "da3ffcdda60cc5ca5ff187898c2d49d7d2e6938b6f023b91b1e2dd61deac83db",
+        "mask_shape": [
+          256,
+          256
+        ],
+        "mask_rule": "binary nonzero support for diffusion; fixed soft alpha for final blend"
+      },
+      {
+        "prompt": "a small blue ceramic vase",
+        "negative_prompt": "",
+        "seed": 317,
+        "strength": 1.0,
+        "guidance_scale": 7.5,
+        "num_inference_steps": 25,
+        "mask_sha256": "da3ffcdda60cc5ca5ff187898c2d49d7d2e6938b6f023b91b1e2dd61deac83db",
+        "mask_shape": [
+          256,
+          256
+        ],
+        "mask_rule": "binary nonzero support for diffusion; fixed soft alpha for final blend"
+      }
+    ],
+    "sha256": "e8fa75dc796460057f87749f4e24716e4d61b2596c2bdf7f5c3e8d131f171241"
+  },
+  "code_sha256": "76a164d27fa9919fb263bd5d3658cacc8492eb99986bc2d73e3bd5e8395101ca",
+  "K": 8,
+  "local_ids": 8,
+  "seed": 2026091701,
+  "global_weight_updates": 0,
+  "inputs": "Only anonymous support pixels; every complete editor prior at every slot",
+  "batching": "Contiguous four+four after frozen independent anonymous permutation; same frozen estimator, pixel-keyed support memo",
+  "invariance_check": "First actual eight-slot fit versus fixed cross-batch permutation; exact restored parameter hashes required before formal scoring",
+  "timing": "Fit records retained; cached editor calls and invariance overhead separated; not formal Table3 setup time",
+  "started_utc": "2026-09-17T14:55:59.695849+00:00",
+  "no_paper_edits": true
+}

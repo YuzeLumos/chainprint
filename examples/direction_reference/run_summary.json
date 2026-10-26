@@ -1,0 +1,58 @@
+{
+  "case_pairs": 96,
+  "summary_rows": 192,
+  "enumerated_global_models": 3721,
+  "compatible_models_per_arm": 305,
+  "design_balance_passed": true,
+  "aggregate_by_query_direction": {
+    "0": {
+      "constrain_a": {
+        "stable_cases": 24,
+        "total_cases": 32
+      },
+      "constrain_b": {
+        "stable_cases": 0,
+        "total_cases": 32
+      }
+    },
+    "45": {
+      "constrain_a": {
+        "stable_cases": 1,
+        "total_cases": 32
+      },
+      "constrain_b": {
+        "stable_cases": 0,
+        "total_cases": 32
+      }
+    },
+    "90": {
+      "constrain_a": {
+        "stable_cases": 0,
+        "total_cases": 32
+      },
+      "constrain_b": {
+        "stable_cases": 16,
+        "total_cases": 32
+      }
+    }
+  },
+  "sampled_false_consensus_counts": {
+    "8": 551,
+    "16": 268,
+    "32": 145,
+    "64": 118,
+    "128": 72,
+    "305": 0
+  },
+  "sampling_rows_per_budget": 3840,
+  "sampled_consensus_with_missed_reversal_counts": {
+    "8": 471,
+    "16": 192,
+    "32": 81,
+    "64": 54,
+    "128": 28,
+    "305": 0
+  },
+  "seconds": 1.0986910000065109,
+  "scope": "Deterministic real-valued 2D operation family; NOT real-image performance, learned-method accuracy, or continuous-space certification."
+}

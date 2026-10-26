@@ -1,0 +1,17 @@
+{
+  "schema": "chainprint-final-experiment-closeout-engineering-recovery-v3",
+  "created_at": "2026-09-25T10:03:00+08:00",
+  "parent_protocol": "/home/yz/chainprint_t1_20260917/final_experiment_closeout_20260925_v1/code/chainprint_final_closeout_20260925_v1.json",
+  "parent_protocol_sha256": "229b5b240d7cb649901c5ff1a4f209829d73186b520847ee1dffda96f723c8ff",
+  "failed_outputs_preserved": [
+    "/home/yz/chainprint_t1_20260917/final_experiment_closeout_20260925_v1/strict_g8_k_curve",
+    "/home/yz/chainprint_t1_20260917/final_experiment_closeout_20260925_v1/strict_g8_k_curve_v2"
+  ],
+  "engineering_error": "The frozen ranking helper already returned method_complete; the v2 row assembly repeated that keyword. Failure occurred before any row was committed and no editor call was possible.",
+  "scientific_protocol_changed": false,
+  "execution_denominator_changed": false,
+  "overrides": {
+    "schema": "chainprint-final-experiment-closeout-20260925-v3-engineering",
+    "code_sha256": "07081867250a0276e61e3bb7b9025ad991926a6ba7e4d831ecccc47a3e8850e1"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "schema": "chainprint-paper-binding-v1",
+  "title": "Anonymous Image Processing-Chain Forensics by Example",
+  "venue": "ICLR 2027",
+  "submission_number": 7543,
+  "local_submission_pdf_sha256": "65533cdadc1135c2c5aaa5a6cec1495b04483ca9b81049ebcd522f8e8eab2a68",
+  "online_current_attachment_verified": false,
+  "method_version": "opweave-dev-20260916-final",
+  "frozen_method_entry_sha256": "db76716fa902691025e8536552405c4ad01976f50c5832aadc29a5305653898e",
+  "note": "Local citation-updated submission PDF; no claim about the current online attachment. Historical contracts are retained separately and do not imply a complete benchmark release."
+}

@@ -1,0 +1,101 @@
+{
+  "declaration_id": "opweave-confirmation-editor-prior-20260915-v1",
+  "candidates": [
+    {
+      "prompt": "a patch of red flowers",
+      "box": [
+        48,
+        64,
+        144,
+        176
+      ],
+      "feather_pixels": 8,
+      "seed": 112,
+      "num_inference_steps": 25
+    },
+    {
+      "prompt": "a patch of red flowers",
+      "box": [
+        48,
+        64,
+        144,
+        176
+      ],
+      "feather_pixels": 8,
+      "seed": 317,
+      "num_inference_steps": 25
+    },
+    {
+      "prompt": "a patch of red flowers",
+      "box": [
+        96,
+        80,
+        208,
+        208
+      ],
+      "feather_pixels": 8,
+      "seed": 112,
+      "num_inference_steps": 25
+    },
+    {
+      "prompt": "a patch of red flowers",
+      "box": [
+        96,
+        80,
+        208,
+        208
+      ],
+      "feather_pixels": 8,
+      "seed": 317,
+      "num_inference_steps": 25
+    },
+    {
+      "prompt": "a small blue ceramic vase",
+      "box": [
+        48,
+        64,
+        144,
+        176
+      ],
+      "feather_pixels": 8,
+      "seed": 112,
+      "num_inference_steps": 25
+    },
+    {
+      "prompt": "a small blue ceramic vase",
+      "box": [
+        48,
+        64,
+        144,
+        176
+      ],
+      "feather_pixels": 8,
+      "seed": 317,
+      "num_inference_steps": 25
+    },
+    {
+      "prompt": "a small blue ceramic vase",
+      "box": [
+        96,
+        80,
+        208,
+        208
+      ],
+      "feather_pixels": 8,
+      "seed": 112,
+      "num_inference_steps": 25
+    },
+    {
+      "prompt": "a small blue ceramic vase",
+      "box": [
+        96,
+        80,
+        208,
+        208
+      ],
+      "feather_pixels": 8,
+      "seed": 317,
+      "num_inference_steps": 25
+    }
+  ]
+}

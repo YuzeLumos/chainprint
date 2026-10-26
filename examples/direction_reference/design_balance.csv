@@ -1,0 +1,3 @@
+arm,K,global_models,compatible_models,support_error_min,support_error_max,global_behavior_diameter
+constrain_a,2,3721,305,0.0,0.007071067811865481,0.15033296378372907
+constrain_b,2,3721,305,0.0,0.007071067811865481,0.1503329637837291
