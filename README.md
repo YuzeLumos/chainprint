@@ -1,5 +1,13 @@
 # ChainPrint: anonymous image processing-chain forensics by example
 
+## Public release candidate
+
+`v0.1.0-rc1` publishes the tested core code and companion model/state assets.
+The locally executed checks and coverage limits are recorded in `VERIFY.json`
+and below; complete raw-data-to-paper-table reproduction is not claimed.
+License status is recorded in `NOTICE`.
+
+
 This candidate packages the **current paired-operation fitting method** from
 *Anonymous Image Processing-Chain Forensics by Example* (ICLR 2027 submission
 7543). It contains the frozen numerical implementation and its dependency
@@ -143,5 +151,5 @@ images, exact support/query manifests and caches, editor assets, and baseline
 adaptations. The historical frozen contracts are retained unchanged under
 `provenance/frozen/`; they are evidence, not portable executable configs.
 
-This is a local release candidate. No GitHub publication or new repository
-license grant is implied. See `NOTICE` for the pending author license choice.
+This repository publishes a core research release candidate. The original
+repository license remains unselected; see `NOTICE` for the current status.

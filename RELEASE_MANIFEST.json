@@ -1,7 +1,7 @@
 {
   "schema": "paper-candidate-release-manifest-v1",
   "candidate": "chainprint",
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "artifacts": [
     {
       "path": ".gitattributes",
@@ -220,8 +220,8 @@
     },
     {
       "path": "GIT_STORAGE.md",
-      "bytes": 862,
-      "sha256": "c81749f4d8c5cf1fbf20f47bcc3e16e1b4ccbbb258e0c666067968437ec17abd"
+      "bytes": 910,
+      "sha256": "b595e256ed631462b87dac76df7f37d3a2a3475587337ccf75c3f8438e8e6907"
     },
     {
       "path": "NOTICE",
@@ -334,14 +334,19 @@
       "sha256": "cfc6057d8792fdf0568ebf649e0241ec27e51a3c3a6d02dfb23355477c9dc38f"
     },
     {
+      "path": "PUBLICATION.json",
+      "bytes": 340,
+      "sha256": "75d02c1b757783b7109792833ca3b22ac612761c680d337df3d388a248d040b6"
+    },
+    {
       "path": "pyproject.toml",
       "bytes": 1107,
       "sha256": "0ac101b5a1fe2009bf7308539ba06b361119e0e7cf15aa9bc831d2da356869dc"
     },
     {
       "path": "README.md",
-      "bytes": 6815,
-      "sha256": "4526349425fae4431f8201bae106810d29a50241d45aaef220d7f3231c12cb38"
+      "bytes": 7112,
+      "sha256": "5cb08ed54b745f44215b2153d64c0eed6888751ba60ad0b8b0a47f9e69e4d454"
     },
     {
       "path": "REPRODUCIBILITY.md",
